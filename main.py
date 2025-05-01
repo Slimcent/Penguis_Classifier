@@ -7,7 +7,9 @@ from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from logging.handlers import TimedRotatingFileHandler
+from Dtos.penguin_input_request import PenguinInputRequest
 from sklearn.preprocessing import LabelEncoder, StandardScaler
+
 
 # Set up FastAPI app
 app = FastAPI()
@@ -111,5 +113,25 @@ async def root():
         "description": "Predict penguin species based on bill length and flipper length.",
         "data_info": data_info,
         "training_info": training_info
+    }
+
+
+@app.post("/predict", summary="Predict Penguin Species", tags=["Prediction"])
+async def predict_penguin(request: PenguinInputRequest):
+    X_new = [[request.bill_length_mm, request.flipper_length_mm]]
+    prediction = clf.predict(X_new)[0]
+    proba = clf.predict_proba(X_new)[0]
+
+    probabilities = {
+        label_mapping[i]: round(float(prob), 4)
+        for i, prob in enumerate(proba)
+    }
+
+    predicted_species = label_mapping[prediction]
+    logger.info(f"Prediction made: {predicted_species} with probabilities {probabilities}")
+
+    return {
+        "prediction": predicted_species,
+        "probabilities": probabilities
     }
 

@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
 
-class PenguinInput(BaseModel):
+class PenguinInputRequest(BaseModel):
     bill_length_mm: float
     flipper_length_mm: float

@@ -271,3 +271,98 @@ Test Accuracy    : 0.976
 Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
 -------------------------------------------------
 
+2025-05-01 16:01:08,722 - INFO - Model training started.
+2025-05-01 16:01:08,722 - INFO - 
+Model Training Summary - 2025-05-01 16:01:08
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 16:01:32,117 - INFO - Model training started.
+2025-05-01 16:01:32,117 - INFO - 
+Model Training Summary - 2025-05-01 16:01:32
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:12:22,246 - INFO - Model training started.
+2025-05-01 18:12:22,246 - INFO - 
+Model Training Summary - 2025-05-01 18:12:22
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:13:38,637 - INFO - Prediction made: Adelie with probabilities {'Adelie': 1.0, 'Chinstrap': 0.0, 'Gentoo': 0.0}
+2025-05-01 18:14:29,681 - INFO - Prediction made: Gentoo with probabilities {'Adelie': 0.0, 'Chinstrap': 0.0, 'Gentoo': 1.0}
+2025-05-01 18:19:13,985 - INFO - Model training started.
+2025-05-01 18:19:13,985 - INFO - 
+Model Training Summary - 2025-05-01 18:19:13
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.964
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:19:15,517 - INFO - Model training started.
+2025-05-01 18:19:15,518 - INFO - 
+Model Training Summary - 2025-05-01 18:19:15
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.964
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:19:48,522 - INFO - Prediction made: Gentoo with probabilities {'Adelie': 0.0, 'Chinstrap': 0.0, 'Gentoo': 1.0}
+2025-05-01 18:20:55,603 - INFO - Model training started.
+2025-05-01 18:20:55,603 - INFO - 
+Model Training Summary - 2025-05-01 18:20:55
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:22:45,413 - INFO - Model training started.
+2025-05-01 18:22:45,414 - INFO - 
+Model Training Summary - 2025-05-01 18:22:45
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:23:06,693 - INFO - Prediction made: Gentoo with probabilities {'Adelie': 0.0, 'Chinstrap': 0.0, 'Gentoo': 1.0}
