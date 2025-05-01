@@ -1,16 +1,114 @@
-# This is a sample Python script.
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score
+from fastapi import FastAPI
+from datetime import datetime
+import logging
+from logging.handlers import TimedRotatingFileHandler
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Set up FastAPI app
+app = FastAPI()
+
+# Set up a logger for training summary with daily log rotation
+logger = logging.getLogger("training_logger")
+logger.setLevel(logging.INFO)
+
+# Create a handler that rotates logs daily at midnight
+handler = TimedRotatingFileHandler("training_log.txt", when="midnight", interval=1, backupCount=7)
+handler.suffix = "%Y-%m-%d"  # Log file name becomes training_log.txt.2025-04-30 etc.
+
+# Log formatter
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+handler.setFormatter(formatter)
+
+# Avoid duplicate logs if the script is re-run
+if not logger.handlers:
+    logger.addHandler(handler)
+
+# Load and clean data
+raw_data = pd.read_csv('penguins.csv')
+initial_rows = len(raw_data)
+data = raw_data.dropna()
+cleaned_rows = len(data)
+dropped_rows = initial_rows - cleaned_rows
+
+# Prepare features and target
+X = data[["bill_length_mm", "flipper_length_mm"]]
+le = LabelEncoder()
+le.fit(data["species"])
+y = le.transform(data["species"])
+label_mapping = dict(zip(le.transform(le.classes_), le.classes_))
+
+# Split
+X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=0)
+
+# Train model
+clf = Pipeline([
+    ("scaler", StandardScaler()),
+    ("knn", KNeighborsClassifier(n_neighbors=11))
+])
+clf.fit(X_train, y_train)
+print("Model training completed successfully!")
+
+# Evaluate
+train_accuracy = accuracy_score(y_train, clf.predict(X_train))
+test_accuracy = accuracy_score(y_test, clf.predict(X_test))
+
+# Prepare training summary
+training_summary = f"""
+Model Training Summary - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : {initial_rows}
+Rows after clean : {cleaned_rows}
+Rows dropped     : {dropped_rows}
+Train Accuracy   : {round(train_accuracy, 3)}
+Test Accuracy    : {round(test_accuracy, 3)}
+Label Mapping    : {label_mapping}
+-------------------------------------------------
+"""
+
+# Print training summary
+print("\nModel Training Summary")
+print("------------------------------")
+print(f"Model training completed successfully!")
+print(f"Rows loaded      : {initial_rows}")
+print(f"Rows after clean : {cleaned_rows}")
+print(f"Rows dropped     : {dropped_rows}")
+print(f"Train Accuracy   : {round(train_accuracy, 3)}")
+print(f"Test Accuracy    : {round(test_accuracy, 3)}")
+print(f"Label Mapping    : {label_mapping}")
+print("------------------------------\n")
+
+# Log the training summary
+logger.info("Model training started.")
+logger.info(training_summary)
+
+# API metadata
+data_info = {
+    "initial_rows": int(initial_rows),
+    "cleaned_rows": int(cleaned_rows),
+    "dropped_rows": int(dropped_rows)
+}
+
+label_mapping = {i: species for i, species in enumerate(le.classes_)}
+
+training_info = {
+    "train_accuracy": float(round(train_accuracy, 3)),
+    "test_accuracy": float(round(test_accuracy, 3)),
+    "label_mapping": label_mapping
+}
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+@app.get("/penguin-info", summary="Penguin Model Info", description="Returns details about the training and model.",
+         tags=["Overview"])
+async def root():
+    return {
+        "name": "Penguins Prediction",
+        "description": "Predict penguin species based on bill length and flipper length.",
+        "data_info": data_info,
+        "training_info": training_info
+    }
