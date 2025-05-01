@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from logging.handlers import TimedRotatingFileHandler
-from Dtos.penguin_input_request import PenguinInputRequest, BatchInputRequest
+from Dtos.Request.penguin_input_request import PenguinInputRequest, BatchInputRequest
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 
