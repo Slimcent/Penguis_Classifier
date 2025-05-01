@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from logging.handlers import TimedRotatingFileHandler
-from Dtos.penguin_input_request import PenguinInputRequest
+from Dtos.penguin_input_request import PenguinInputRequest, BatchInputRequest
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 
@@ -135,3 +135,27 @@ async def predict_penguin(request: PenguinInputRequest):
         "probabilities": probabilities
     }
 
+
+@app.post("/predict-multiple", summary="Predict multiple Penguin Species", tags=["Prediction"])
+async def predict_multiple(batch: BatchInputRequest):
+    # Convert list of PenguinFeatures to DataFrame
+    df = pd.DataFrame([record.dict() for record in batch.records])
+
+    # Predict
+    preds = clf.predict(df)
+    probs = clf.predict_proba(df)
+
+    # Map back to species labels
+    results = []
+    for pred, prob in zip(preds, probs):
+        species = le.inverse_transform([pred])[0]
+        prob_dict = {
+            le.inverse_transform([i])[0]: round(p, 2)
+            for i, p in enumerate(prob)
+        }
+        results.append({
+            "prediction": species,
+            "probabilities": prob_dict
+        })
+
+    return {"results": results}

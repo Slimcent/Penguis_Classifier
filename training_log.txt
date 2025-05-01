@@ -366,3 +366,81 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
 -------------------------------------------------
 
 2025-05-01 18:23:06,693 - INFO - Prediction made: Gentoo with probabilities {'Adelie': 0.0, 'Chinstrap': 0.0, 'Gentoo': 1.0}
+2025-05-01 18:40:55,995 - INFO - Model training started.
+2025-05-01 18:40:55,995 - INFO - 
+Model Training Summary - 2025-05-01 18:40:55
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:41:06,054 - INFO - Model training started.
+2025-05-01 18:41:06,055 - INFO - 
+Model Training Summary - 2025-05-01 18:41:06
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:44:00,907 - INFO - Model training started.
+2025-05-01 18:44:00,907 - INFO - 
+Model Training Summary - 2025-05-01 18:44:00
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 18:47:20,266 - INFO - Model training started.
+2025-05-01 18:47:20,266 - INFO - 
+Model Training Summary - 2025-05-01 18:47:20
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 19:08:37,827 - INFO - Model training started.
+2025-05-01 19:08:37,827 - INFO - 
+Model Training Summary - 2025-05-01 19:08:37
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 19:09:12,228 - INFO - Model training started.
+2025-05-01 19:09:12,228 - INFO - 
+Model Training Summary - 2025-05-01 19:09:12
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
