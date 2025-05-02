@@ -615,3 +615,503 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
 
 2025-05-01 20:31:07,024 — INFO — This is a test info log.
 2025-05-01 20:31:07,025 — ERROR — This is a test error log.
+2025-05-02 12:30:08,026 — INFO — Model training completed.
+2025-05-02 12:30:08,026 — INFO — Model Training Summary - 2025-05-02 12:30:08
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 12:32:28,385 — INFO — Model training completed.
+2025-05-02 12:32:28,386 — INFO — Model Training Summary - 2025-05-02 12:32:28
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 12:32:28,387 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'success'
+2025-05-02 12:57:41,479 — INFO — Model training completed.
+2025-05-02 12:57:41,480 — INFO — Model Training Summary - 2025-05-02 12:57:41
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:02:35,856 — INFO — Model training completed.
+2025-05-02 13:02:35,857 — INFO — Model Training Summary - 2025-05-02 13:02:35
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:12:37,056 — INFO — Model training completed.
+2025-05-02 13:12:37,057 — INFO — Model Training Summary - 2025-05-02 13:12:37
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:18:54,618 — INFO — Model training completed.
+2025-05-02 13:18:54,618 — INFO — Model Training Summary - 2025-05-02 13:18:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:21:29,926 — INFO — Model training completed.
+2025-05-02 13:21:29,927 — INFO — Model Training Summary - 2025-05-02 13:21:29
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:21:29,927 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'model_info'
+2025-05-02 13:44:51,776 — INFO — Model training completed.
+2025-05-02 13:44:51,777 — INFO — Model Training Summary - 2025-05-02 13:44:51
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:45:54,082 — INFO — Model training completed.
+2025-05-02 13:45:54,082 — INFO — Model Training Summary - 2025-05-02 13:45:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:45:54,083 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'model_info'
+2025-05-02 13:48:18,916 — INFO — Model training completed.
+2025-05-02 13:48:18,917 — INFO — Model Training Summary - 2025-05-02 13:48:18
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:48:18,917 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'model_info'
+2025-05-02 13:48:35,593 — INFO — Model training completed.
+2025-05-02 13:48:35,593 — INFO — Model Training Summary - 2025-05-02 13:48:35
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:50:11,591 — INFO — Model training completed.
+2025-05-02 13:50:11,591 — INFO — Model Training Summary - 2025-05-02 13:50:11
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 13:50:33,938 — INFO — Model training completed.
+2025-05-02 13:50:33,939 — INFO — Model Training Summary - 2025-05-02 13:50:33
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:23:40,831 — INFO — Model training completed.
+2025-05-02 16:23:40,832 — INFO — Model Training Summary - 2025-05-02 16:23:40
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:23:57,873 — INFO — Model training completed.
+2025-05-02 16:23:57,874 — INFO — Model Training Summary - 2025-05-02 16:23:57
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:24:16,043 — INFO — Model training completed.
+2025-05-02 16:24:16,044 — INFO — Model Training Summary - 2025-05-02 16:24:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:25:47,425 — INFO — Model training completed.
+2025-05-02 16:25:47,426 — INFO — Model Training Summary - 2025-05-02 16:25:47
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:30:14,066 — INFO — Model training completed.
+2025-05-02 16:30:14,068 — INFO — Model Training Summary - 2025-05-02 16:30:14
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:31:18,497 — INFO — Model training completed.
+
+2025-05-02 16:31:18,498 — INFO — Model Training Summary - 2025-05-02 16:31:18
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 16:31:43,805 — INFO — Model training completed.
+
+2025-05-02 16:31:43,806 — INFO — Model Training Summary - 2025-05-02 16:31:43
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 21:01:14,769 — INFO — Model training completed.
+
+2025-05-02 21:01:14,770 — INFO — Model Training Summary - 2025-05-02 21:01:14
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 21:01:14,838 — INFO — Model training completed.
+
+2025-05-02 21:01:14,839 — INFO — Model Training Summary - 2025-05-02 21:01:14
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 21:33:54,290 — INFO — Model training completed.
+
+2025-05-02 21:33:54,291 — INFO — Model Training Summary - 2025-05-02 21:33:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 21:33:54,307 — INFO — Model training completed.
+
+2025-05-02 21:33:54,307 — INFO — Model Training Summary - 2025-05-02 21:33:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 21:43:53,010 — INFO — Model training completed.
+
+2025-05-02 21:43:53,010 — INFO — Model Training Summary - 2025-05-02 21:43:53
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 21:43:53,026 — INFO — Model training completed.
+
+2025-05-02 21:43:53,026 — INFO — Model Training Summary - 2025-05-02 21:43:53
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:36:53,282 — INFO — Model training completed.
+
+2025-05-02 22:36:53,283 — INFO — Model Training Summary - 2025-05-02 22:36:53
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:36:53,284 — ERROR — Single prediction failed: 'ModelInfoResponse' object has no attribute 'success'
+2025-05-02 22:46:24,983 — INFO — Model training completed.
+
+2025-05-02 22:46:24,984 — INFO — Model Training Summary - 2025-05-02 22:46:24
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:46:24,985 — ERROR — Single prediction failed: 'ModelInfoResponse' object has no attribute 'success'
+2025-05-02 22:46:50,824 — INFO — Model training completed.
+
+2025-05-02 22:46:50,824 — INFO — Model Training Summary - 2025-05-02 22:46:50
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:46:50,841 — INFO — Model training completed.
+
+2025-05-02 22:46:50,842 — INFO — Model Training Summary - 2025-05-02 22:46:50
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:47:17,178 — INFO — Model training completed.
+
+2025-05-02 22:47:17,178 — INFO — Model Training Summary - 2025-05-02 22:47:17
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:47:17,207 — INFO — Model training completed.
+
+2025-05-02 22:47:17,208 — INFO — Model Training Summary - 2025-05-02 22:47:17
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:57:16,441 — INFO — Model training completed.
+
+2025-05-02 22:57:16,442 — INFO — Model Training Summary - 2025-05-02 22:57:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 22:57:16,459 — INFO — Model training completed.
+
+2025-05-02 22:57:16,460 — INFO — Model Training Summary - 2025-05-02 22:57:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:07:16,868 — INFO — Model training completed.
+
+2025-05-02 23:07:16,868 — INFO — Model Training Summary - 2025-05-02 23:07:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:07:16,883 — INFO — Model training completed.
+
+2025-05-02 23:07:16,883 — INFO — Model Training Summary - 2025-05-02 23:07:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:07:44,537 — INFO — Model training completed.
+
+2025-05-02 23:07:44,537 — INFO — Model Training Summary - 2025-05-02 23:07:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:07:44,554 — INFO — Model training completed.
+
+2025-05-02 23:07:44,554 — INFO — Model Training Summary - 2025-05-02 23:07:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:17:43,717 — INFO — Model training completed.
+
+2025-05-02 23:17:43,718 — INFO — Model Training Summary - 2025-05-02 23:17:43
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:17:43,734 — INFO — Model training completed.
+
+2025-05-02 23:17:43,734 — INFO — Model Training Summary - 2025-05-02 23:17:43
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:18:32,260 — INFO — Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
+2025-05-02 23:22:44,032 — INFO — Model training completed.
+
+2025-05-02 23:22:44,032 — INFO — Model Training Summary - 2025-05-02 23:22:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:22:44,048 — INFO — Model training completed.
+
+2025-05-02 23:22:44,048 — INFO — Model Training Summary - 2025-05-02 23:22:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:23:10,357 — INFO — 
+Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
+2025-05-02 23:24:37,416 — INFO — 
+Single model predicted successfully: prediction='Gentoo' probabilities={'Adelie': 0.0, 'Chinstrap': 0.0, 'Gentoo': 1.0}
+2025-05-02 23:25:12,714 — INFO — 
+Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
+2025-05-02 23:25:50,541 — INFO — 
+Batch model predicted successfully: [PredictionResponse(prediction='Adelie', probabilities={'Adelie': 0.82, 'Chinstrap': 0.18, 'Gentoo': 0.0}), PredictionResponse(prediction='Chinstrap', probabilities={'Adelie': 0.0, 'Chinstrap': 0.91, 'Gentoo': 0.09}), PredictionResponse(prediction='Gentoo', probabilities={'Adelie': 0.0, 'Chinstrap': 0.09, 'Gentoo': 0.91})]
+2025-05-02 23:32:44,997 — INFO — Model training completed.
+
+2025-05-02 23:32:44,998 — INFO — Model Training Summary - 2025-05-02 23:32:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:32:45,014 — INFO — Model training completed.
+
+2025-05-02 23:32:45,015 — INFO — Model Training Summary - 2025-05-02 23:32:45
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-02 23:33:35,608 — INFO — 
+Model info retrieved successfully: {
+  "name": "Penguins Prediction",
+  "description": "Predict penguin species based on bill length and flipper length.",
+  "data_info": {
+    "initial_rows": 355,
+    "cleaned_rows": 337,
+    "dropped_rows": 18
+  },
+  "training_info": {
+    "train_accuracy": 0.952,
+    "test_accuracy": 0.976,
+    "label_mapping": {
+      "0": "Adelie",
+      "1": "Chinstrap",
+      "2": "Gentoo"
+    }
+  }
+}
