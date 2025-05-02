@@ -54,7 +54,7 @@ class ModelTrainer:
             label_mapping=label_mapping
         )
 
-        summary = f"""
+        summary = f"""\n
         Model Training Summary - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         -------------------------------------------------
         Rows loaded      : {initial_rows}
@@ -65,7 +65,7 @@ class ModelTrainer:
         Label Mapping    : {label_mapping}
         -------------------------------------------------
         """
-        self.logger.info("Model training completed.")
+        self.logger.info("Model training completed.\n")
         self.logger.info(summary.strip())
 
         return ModelInfoResponse(
