@@ -509,3 +509,109 @@ Test Accuracy    : 0.976
 Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
 -------------------------------------------------
 
+2025-05-01 20:10:15,299 - INFO - Model training started.
+2025-05-01 20:10:15,299 - INFO - 
+Model Training Summary - 2025-05-01 20:10:15
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:17:33,481 - INFO - Model training started.
+2025-05-01 20:17:33,481 - INFO - 
+Model Training Summary - 2025-05-01 20:17:33
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:20:47,027 - INFO - Model training started.
+2025-05-01 20:20:47,028 - INFO - 
+Model Training Summary - 2025-05-01 20:20:47
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:23:20,856 - INFO - Model training started.
+2025-05-01 20:23:20,856 - INFO - 
+Model Training Summary - 2025-05-01 20:23:20
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:24:08,263 - INFO - Model training started.
+2025-05-01 20:24:08,263 - INFO - 
+Model Training Summary - 2025-05-01 20:24:08
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:26:17,882 - INFO - Model training started.
+2025-05-01 20:26:17,884 - INFO - 
+Model Training Summary - 2025-05-01 20:26:17
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:28:35,432 - INFO - Model training started.
+2025-05-01 20:28:35,432 - INFO - 
+Model Training Summary - 2025-05-01 20:28:35
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:28:41,363 - INFO - Model training started.
+2025-05-01 20:28:41,363 - INFO - 
+Model Training Summary - 2025-05-01 20:28:41
+-------------------------------------------------
+Model training completed successfully!
+Rows loaded      : 355
+Rows after clean : 337
+Rows dropped     : 18
+Train Accuracy   : 0.952
+Test Accuracy    : 0.976
+Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
+-------------------------------------------------
+
+2025-05-01 20:31:07,024 — INFO — This is a test info log.
+2025-05-01 20:31:07,025 — ERROR — This is a test error log.
