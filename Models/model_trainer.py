@@ -1,11 +1,11 @@
 import pandas as pd
 from datetime import datetime
 from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score
+from Services.logger_service import LoggerService
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import accuracy_score
-from Services.logger_service import LoggerService
 from Dtos.Response.model_response import ModelInfoResponse, TrainingInfo, DataInfo
 
 

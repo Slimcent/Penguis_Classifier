@@ -1115,3 +1115,1187 @@ Model info retrieved successfully: {
     }
   }
 }
+2025-05-03 02:07:36,167 — INFO — Model training completed.
+
+2025-05-03 02:07:36,168 — INFO — Model Training Summary - 2025-05-03 02:07:36
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 02:07:36,188 — INFO — Model training completed.
+
+2025-05-03 02:07:36,188 — INFO — Model Training Summary - 2025-05-03 02:07:36
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 02:08:02,890 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 02:08:02,894 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 02:08:02,909 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 02:08:02,911 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 11:51:16,170 — INFO — Model training completed.
+
+2025-05-03 11:51:16,171 — INFO — Model Training Summary - 2025-05-03 11:51:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 11:51:16,191 — INFO — Model training completed.
+
+2025-05-03 11:51:16,192 — INFO — Model Training Summary - 2025-05-03 11:51:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 11:54:41,142 — INFO — 
+Model info retrieved successfully: {
+  "name": "Penguins Prediction",
+  "description": "Predict penguin species based on bill length and flipper length.",
+  "data_info": {
+    "initial_rows": 355,
+    "cleaned_rows": 337,
+    "dropped_rows": 18
+  },
+  "training_info": {
+    "train_accuracy": 0.952,
+    "test_accuracy": 0.976,
+    "label_mapping": {
+      "0": "Adelie",
+      "1": "Chinstrap",
+      "2": "Gentoo"
+    }
+  }
+}
+2025-05-03 11:55:09,115 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 11:55:09,120 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 11:55:09,142 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 11:55:09,143 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 11:55:09,143 — INFO — Exporting 5 predictions to CSV format
+2025-05-03 12:01:48,844 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 12:01:48,848 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:01:48,859 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:01:48,860 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:01:48,860 — INFO — Exporting 5 predictions to EXCEL format
+2025-05-03 12:01:55,065 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 12:01:55,066 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:01:55,078 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:01:55,079 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:01:55,079 — INFO — Exporting 5 predictions to CSV format
+2025-05-03 12:02:03,890 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 12:02:03,892 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:02:03,903 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:02:03,903 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:02:03,904 — INFO — Exporting 5 predictions to EXCEL format
+2025-05-03 12:06:46,883 — INFO — Model training completed.
+
+2025-05-03 12:06:46,884 — INFO — Model Training Summary - 2025-05-03 12:06:46
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:06:46,900 — INFO — Model training completed.
+
+2025-05-03 12:06:46,901 — INFO — Model Training Summary - 2025-05-03 12:06:46
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:08:57,665 — INFO — Model training completed.
+
+2025-05-03 12:08:57,665 — INFO — Model Training Summary - 2025-05-03 12:08:57
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:08:57,680 — INFO — Model training completed.
+
+2025-05-03 12:08:57,680 — INFO — Model Training Summary - 2025-05-03 12:08:57
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:09:24,343 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 12:09:24,348 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:09:24,361 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:09:24,362 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:09:24,363 — INFO — Exporting 5 predictions to EXCEL format
+2025-05-03 12:18:56,636 — INFO — Model training completed.
+
+2025-05-03 12:18:56,637 — INFO — Model Training Summary - 2025-05-03 12:18:56
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:18:56,651 — INFO — Model training completed.
+
+2025-05-03 12:18:56,651 — INFO — Model Training Summary - 2025-05-03 12:18:56
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:23:57,480 — INFO — Model training completed.
+
+2025-05-03 12:23:57,481 — INFO — Model Training Summary - 2025-05-03 12:23:57
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:23:57,503 — INFO — Model training completed.
+
+2025-05-03 12:23:57,503 — INFO — Model Training Summary - 2025-05-03 12:23:57
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:28:58,459 — INFO — Model training completed.
+
+2025-05-03 12:28:58,460 — INFO — Model Training Summary - 2025-05-03 12:28:58
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:28:58,499 — INFO — Model training completed.
+
+2025-05-03 12:28:58,500 — INFO — Model Training Summary - 2025-05-03 12:28:58
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:33:58,645 — INFO — Model training completed.
+
+2025-05-03 12:33:58,646 — INFO — Model Training Summary - 2025-05-03 12:33:58
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:33:58,698 — INFO — Model training completed.
+
+2025-05-03 12:33:58,698 — INFO — Model Training Summary - 2025-05-03 12:33:58
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:43:59,340 — INFO — Model training completed.
+
+2025-05-03 12:43:59,340 — INFO — Model Training Summary - 2025-05-03 12:43:59
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:43:59,362 — INFO — Model training completed.
+
+2025-05-03 12:43:59,362 — INFO — Model Training Summary - 2025-05-03 12:43:59
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:47:38,908 — INFO — Model training completed.
+
+2025-05-03 12:47:38,909 — INFO — Model Training Summary - 2025-05-03 12:47:38
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:47:38,930 — INFO — Model training completed.
+
+2025-05-03 12:47:38,931 — INFO — Model Training Summary - 2025-05-03 12:47:38
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:48:31,971 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 12:48:31,979 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:48:32,005 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:48:32,008 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:48:32,009 — INFO — Exporting 5 predictions to CSV format
+2025-05-03 12:48:59,929 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 12:48:59,932 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:48:59,949 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:48:59,951 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 12:48:59,952 — INFO — Exporting 5 predictions to EXCEL format
+2025-05-03 12:52:40,898 — INFO — Model training completed.
+
+2025-05-03 12:52:40,900 — INFO — Model Training Summary - 2025-05-03 12:52:40
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:52:40,934 — INFO — Model training completed.
+
+2025-05-03 12:52:40,935 — INFO — Model Training Summary - 2025-05-03 12:52:40
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:54:21,779 — INFO — Model training completed.
+
+2025-05-03 12:54:21,779 — INFO — Model Training Summary - 2025-05-03 12:54:21
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 12:54:21,801 — INFO — Model training completed.
+
+2025-05-03 12:54:21,801 — INFO — Model Training Summary - 2025-05-03 12:54:21
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 13:10:05,520 — INFO — Model training completed.
+
+2025-05-03 13:10:05,521 — INFO — Model Training Summary - 2025-05-03 13:10:05
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 13:10:05,549 — INFO — Model training completed.
+
+2025-05-03 13:10:05,549 — INFO — Model Training Summary - 2025-05-03 13:10:05
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-03 13:11:35,749 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 13:11:35,757 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 13:11:35,783 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 13:11:35,786 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 13:11:35,787 — INFO — Exporting 5 predictions to CSV format
+2025-05-03 13:11:54,602 — INFO — Starting to parse file: sample_penguins.csv
+2025-05-03 13:11:54,606 — INFO — Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 13:11:54,633 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 13:11:54,635 — INFO — Predictions from file: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-03 13:11:54,636 — INFO — Exporting 5 predictions to EXCEL format

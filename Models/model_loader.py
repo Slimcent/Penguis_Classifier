@@ -1,6 +1,6 @@
 import asyncio
-from Dtos.Response.model_response import ModelInfoResponse
 from Models.model_trainer import ModelTrainer
+from Dtos.Response.model_response import ModelInfoResponse
 
 
 class ModelLoader:

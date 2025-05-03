@@ -1,7 +1,7 @@
 from fastapi import APIRouter
+from Services.model_info_service import ModelInfoService
 from Dtos.Response.model_response import ModelInfoResponse
 from Dtos.Response.service_response import ServiceResponse
-from Services.model_info_service import ModelInfoService
 
 router = APIRouter()
 model_info_service = ModelInfoService()

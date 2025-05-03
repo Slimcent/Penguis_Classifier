@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from Controllers import predict_controller, model_info_controller
 from Core.startup_service import StartupService
 from Core.global_model_loader import model_loader
+from Controllers import predict_controller, model_info_controller
 
 
 def create_app() -> FastAPI:
