@@ -613,10 +613,10 @@ Test Accuracy    : 0.976
 Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2): 'Gentoo'}
 -------------------------------------------------
 
-2025-05-01 20:31:07,024 — INFO — This is a test info log.
-2025-05-01 20:31:07,025 — ERROR — This is a test error log.
-2025-05-02 12:30:08,026 — INFO — Model training completed.
-2025-05-02 12:30:08,026 — INFO — Model Training Summary - 2025-05-02 12:30:08
+2025-05-01 20:31:07,024 ï¿½ INFO ï¿½ This is a test info log.
+2025-05-01 20:31:07,025 ï¿½ ERROR ï¿½ This is a test error log.
+2025-05-02 12:30:08,026 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 12:30:08,026 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 12:30:08
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -625,8 +625,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 12:32:28,385 — INFO — Model training completed.
-2025-05-02 12:32:28,386 — INFO — Model Training Summary - 2025-05-02 12:32:28
+2025-05-02 12:32:28,385 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 12:32:28,386 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 12:32:28
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -635,9 +635,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 12:32:28,387 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'success'
-2025-05-02 12:57:41,479 — INFO — Model training completed.
-2025-05-02 12:57:41,480 — INFO — Model Training Summary - 2025-05-02 12:57:41
+2025-05-02 12:32:28,387 ï¿½ ERROR ï¿½ Error loading model info: 'ModelLoader' object has no attribute 'success'
+2025-05-02 12:57:41,479 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 12:57:41,480 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 12:57:41
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -646,8 +646,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:02:35,856 — INFO — Model training completed.
-2025-05-02 13:02:35,857 — INFO — Model Training Summary - 2025-05-02 13:02:35
+2025-05-02 13:02:35,856 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:02:35,857 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:02:35
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -656,8 +656,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:12:37,056 — INFO — Model training completed.
-2025-05-02 13:12:37,057 — INFO — Model Training Summary - 2025-05-02 13:12:37
+2025-05-02 13:12:37,056 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:12:37,057 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:12:37
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -666,8 +666,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:18:54,618 — INFO — Model training completed.
-2025-05-02 13:18:54,618 — INFO — Model Training Summary - 2025-05-02 13:18:54
+2025-05-02 13:18:54,618 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:18:54,618 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:18:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -676,8 +676,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:21:29,926 — INFO — Model training completed.
-2025-05-02 13:21:29,927 — INFO — Model Training Summary - 2025-05-02 13:21:29
+2025-05-02 13:21:29,926 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:21:29,927 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:21:29
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -686,9 +686,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:21:29,927 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'model_info'
-2025-05-02 13:44:51,776 — INFO — Model training completed.
-2025-05-02 13:44:51,777 — INFO — Model Training Summary - 2025-05-02 13:44:51
+2025-05-02 13:21:29,927 ï¿½ ERROR ï¿½ Error loading model info: 'ModelLoader' object has no attribute 'model_info'
+2025-05-02 13:44:51,776 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:44:51,777 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:44:51
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -697,8 +697,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:45:54,082 — INFO — Model training completed.
-2025-05-02 13:45:54,082 — INFO — Model Training Summary - 2025-05-02 13:45:54
+2025-05-02 13:45:54,082 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:45:54,082 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:45:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -707,9 +707,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:45:54,083 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'model_info'
-2025-05-02 13:48:18,916 — INFO — Model training completed.
-2025-05-02 13:48:18,917 — INFO — Model Training Summary - 2025-05-02 13:48:18
+2025-05-02 13:45:54,083 ï¿½ ERROR ï¿½ Error loading model info: 'ModelLoader' object has no attribute 'model_info'
+2025-05-02 13:48:18,916 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:48:18,917 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:48:18
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -718,9 +718,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:48:18,917 — ERROR — Error loading model info: 'ModelLoader' object has no attribute 'model_info'
-2025-05-02 13:48:35,593 — INFO — Model training completed.
-2025-05-02 13:48:35,593 — INFO — Model Training Summary - 2025-05-02 13:48:35
+2025-05-02 13:48:18,917 ï¿½ ERROR ï¿½ Error loading model info: 'ModelLoader' object has no attribute 'model_info'
+2025-05-02 13:48:35,593 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:48:35,593 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:48:35
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -729,8 +729,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:50:11,591 — INFO — Model training completed.
-2025-05-02 13:50:11,591 — INFO — Model Training Summary - 2025-05-02 13:50:11
+2025-05-02 13:50:11,591 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:50:11,591 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:50:11
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -739,8 +739,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 13:50:33,938 — INFO — Model training completed.
-2025-05-02 13:50:33,939 — INFO — Model Training Summary - 2025-05-02 13:50:33
+2025-05-02 13:50:33,938 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 13:50:33,939 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 13:50:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -749,8 +749,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:23:40,831 — INFO — Model training completed.
-2025-05-02 16:23:40,832 — INFO — Model Training Summary - 2025-05-02 16:23:40
+2025-05-02 16:23:40,831 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 16:23:40,832 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:23:40
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -759,8 +759,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:23:57,873 — INFO — Model training completed.
-2025-05-02 16:23:57,874 — INFO — Model Training Summary - 2025-05-02 16:23:57
+2025-05-02 16:23:57,873 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 16:23:57,874 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:23:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -769,8 +769,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:24:16,043 — INFO — Model training completed.
-2025-05-02 16:24:16,044 — INFO — Model Training Summary - 2025-05-02 16:24:16
+2025-05-02 16:24:16,043 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 16:24:16,044 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:24:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -779,8 +779,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:25:47,425 — INFO — Model training completed.
-2025-05-02 16:25:47,426 — INFO — Model Training Summary - 2025-05-02 16:25:47
+2025-05-02 16:25:47,425 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 16:25:47,426 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:25:47
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -789,8 +789,8 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:30:14,066 — INFO — Model training completed.
-2025-05-02 16:30:14,068 — INFO — Model Training Summary - 2025-05-02 16:30:14
+2025-05-02 16:30:14,066 ï¿½ INFO ï¿½ Model training completed.
+2025-05-02 16:30:14,068 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:30:14
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -799,9 +799,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:31:18,497 — INFO — Model training completed.
+2025-05-02 16:31:18,497 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 16:31:18,498 — INFO — Model Training Summary - 2025-05-02 16:31:18
+2025-05-02 16:31:18,498 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:31:18
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -810,9 +810,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 16:31:43,805 — INFO — Model training completed.
+2025-05-02 16:31:43,805 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 16:31:43,806 — INFO — Model Training Summary - 2025-05-02 16:31:43
+2025-05-02 16:31:43,806 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 16:31:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -821,9 +821,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 21:01:14,769 — INFO — Model training completed.
+2025-05-02 21:01:14,769 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 21:01:14,770 — INFO — Model Training Summary - 2025-05-02 21:01:14
+2025-05-02 21:01:14,770 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 21:01:14
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -832,9 +832,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 21:01:14,838 — INFO — Model training completed.
+2025-05-02 21:01:14,838 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 21:01:14,839 — INFO — Model Training Summary - 2025-05-02 21:01:14
+2025-05-02 21:01:14,839 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 21:01:14
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -843,9 +843,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 21:33:54,290 — INFO — Model training completed.
+2025-05-02 21:33:54,290 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 21:33:54,291 — INFO — Model Training Summary - 2025-05-02 21:33:54
+2025-05-02 21:33:54,291 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 21:33:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -854,9 +854,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 21:33:54,307 — INFO — Model training completed.
+2025-05-02 21:33:54,307 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 21:33:54,307 — INFO — Model Training Summary - 2025-05-02 21:33:54
+2025-05-02 21:33:54,307 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 21:33:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -865,9 +865,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 21:43:53,010 — INFO — Model training completed.
+2025-05-02 21:43:53,010 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 21:43:53,010 — INFO — Model Training Summary - 2025-05-02 21:43:53
+2025-05-02 21:43:53,010 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 21:43:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -876,9 +876,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 21:43:53,026 — INFO — Model training completed.
+2025-05-02 21:43:53,026 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 21:43:53,026 — INFO — Model Training Summary - 2025-05-02 21:43:53
+2025-05-02 21:43:53,026 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 21:43:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -887,9 +887,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:36:53,282 — INFO — Model training completed.
+2025-05-02 22:36:53,282 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:36:53,283 — INFO — Model Training Summary - 2025-05-02 22:36:53
+2025-05-02 22:36:53,283 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:36:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -898,10 +898,10 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:36:53,284 — ERROR — Single prediction failed: 'ModelInfoResponse' object has no attribute 'success'
-2025-05-02 22:46:24,983 — INFO — Model training completed.
+2025-05-02 22:36:53,284 ï¿½ ERROR ï¿½ Single prediction failed: 'ModelInfoResponse' object has no attribute 'success'
+2025-05-02 22:46:24,983 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:46:24,984 — INFO — Model Training Summary - 2025-05-02 22:46:24
+2025-05-02 22:46:24,984 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:46:24
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -910,10 +910,10 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:46:24,985 — ERROR — Single prediction failed: 'ModelInfoResponse' object has no attribute 'success'
-2025-05-02 22:46:50,824 — INFO — Model training completed.
+2025-05-02 22:46:24,985 ï¿½ ERROR ï¿½ Single prediction failed: 'ModelInfoResponse' object has no attribute 'success'
+2025-05-02 22:46:50,824 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:46:50,824 — INFO — Model Training Summary - 2025-05-02 22:46:50
+2025-05-02 22:46:50,824 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:46:50
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -922,9 +922,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:46:50,841 — INFO — Model training completed.
+2025-05-02 22:46:50,841 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:46:50,842 — INFO — Model Training Summary - 2025-05-02 22:46:50
+2025-05-02 22:46:50,842 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:46:50
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -933,9 +933,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:47:17,178 — INFO — Model training completed.
+2025-05-02 22:47:17,178 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:47:17,178 — INFO — Model Training Summary - 2025-05-02 22:47:17
+2025-05-02 22:47:17,178 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:47:17
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -944,9 +944,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:47:17,207 — INFO — Model training completed.
+2025-05-02 22:47:17,207 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:47:17,208 — INFO — Model Training Summary - 2025-05-02 22:47:17
+2025-05-02 22:47:17,208 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:47:17
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -955,9 +955,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:57:16,441 — INFO — Model training completed.
+2025-05-02 22:57:16,441 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:57:16,442 — INFO — Model Training Summary - 2025-05-02 22:57:16
+2025-05-02 22:57:16,442 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:57:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -966,9 +966,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 22:57:16,459 — INFO — Model training completed.
+2025-05-02 22:57:16,459 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 22:57:16,460 — INFO — Model Training Summary - 2025-05-02 22:57:16
+2025-05-02 22:57:16,460 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 22:57:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -977,9 +977,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:07:16,868 — INFO — Model training completed.
+2025-05-02 23:07:16,868 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:07:16,868 — INFO — Model Training Summary - 2025-05-02 23:07:16
+2025-05-02 23:07:16,868 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:07:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -988,9 +988,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:07:16,883 — INFO — Model training completed.
+2025-05-02 23:07:16,883 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:07:16,883 — INFO — Model Training Summary - 2025-05-02 23:07:16
+2025-05-02 23:07:16,883 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:07:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -999,9 +999,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:07:44,537 — INFO — Model training completed.
+2025-05-02 23:07:44,537 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:07:44,537 — INFO — Model Training Summary - 2025-05-02 23:07:44
+2025-05-02 23:07:44,537 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:07:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1010,9 +1010,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:07:44,554 — INFO — Model training completed.
+2025-05-02 23:07:44,554 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:07:44,554 — INFO — Model Training Summary - 2025-05-02 23:07:44
+2025-05-02 23:07:44,554 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:07:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1021,9 +1021,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:17:43,717 — INFO — Model training completed.
+2025-05-02 23:17:43,717 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:17:43,718 — INFO — Model Training Summary - 2025-05-02 23:17:43
+2025-05-02 23:17:43,718 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:17:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1032,9 +1032,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:17:43,734 — INFO — Model training completed.
+2025-05-02 23:17:43,734 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:17:43,734 — INFO — Model Training Summary - 2025-05-02 23:17:43
+2025-05-02 23:17:43,734 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:17:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1043,10 +1043,10 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:18:32,260 — INFO — Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
-2025-05-02 23:22:44,032 — INFO — Model training completed.
+2025-05-02 23:18:32,260 ï¿½ INFO ï¿½ Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
+2025-05-02 23:22:44,032 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:22:44,032 — INFO — Model Training Summary - 2025-05-02 23:22:44
+2025-05-02 23:22:44,032 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:22:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1055,9 +1055,9 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:22:44,048 — INFO — Model training completed.
+2025-05-02 23:22:44,048 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:22:44,048 — INFO — Model Training Summary - 2025-05-02 23:22:44
+2025-05-02 23:22:44,048 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:22:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1066,17 +1066,17 @@ Label Mapping    : {np.int64(0): 'Adelie', np.int64(1): 'Chinstrap', np.int64(2)
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:23:10,357 — INFO — 
+2025-05-02 23:23:10,357 ï¿½ INFO ï¿½ 
 Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
-2025-05-02 23:24:37,416 — INFO — 
+2025-05-02 23:24:37,416 ï¿½ INFO ï¿½ 
 Single model predicted successfully: prediction='Gentoo' probabilities={'Adelie': 0.0, 'Chinstrap': 0.0, 'Gentoo': 1.0}
-2025-05-02 23:25:12,714 — INFO — 
+2025-05-02 23:25:12,714 ï¿½ INFO ï¿½ 
 Model info retrieved successfully: name='Penguins Prediction' description='Predict penguin species based on bill length and flipper length.' data_info=DataInfo(initial_rows=355, cleaned_rows=337, dropped_rows=18) training_info=TrainingInfo(train_accuracy=0.952, test_accuracy=0.976, label_mapping={0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'})
-2025-05-02 23:25:50,541 — INFO — 
+2025-05-02 23:25:50,541 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [PredictionResponse(prediction='Adelie', probabilities={'Adelie': 0.82, 'Chinstrap': 0.18, 'Gentoo': 0.0}), PredictionResponse(prediction='Chinstrap', probabilities={'Adelie': 0.0, 'Chinstrap': 0.91, 'Gentoo': 0.09}), PredictionResponse(prediction='Gentoo', probabilities={'Adelie': 0.0, 'Chinstrap': 0.09, 'Gentoo': 0.91})]
-2025-05-02 23:32:44,997 — INFO — Model training completed.
+2025-05-02 23:32:44,997 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:32:44,998 — INFO — Model Training Summary - 2025-05-02 23:32:44
+2025-05-02 23:32:44,998 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:32:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1085,9 +1085,9 @@ Batch model predicted successfully: [PredictionResponse(prediction='Adelie', pro
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:32:45,014 — INFO — Model training completed.
+2025-05-02 23:32:45,014 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-02 23:32:45,015 — INFO — Model Training Summary - 2025-05-02 23:32:45
+2025-05-02 23:32:45,015 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-02 23:32:45
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1096,7 +1096,7 @@ Batch model predicted successfully: [PredictionResponse(prediction='Adelie', pro
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-02 23:33:35,608 — INFO — 
+2025-05-02 23:33:35,608 ï¿½ INFO ï¿½ 
 Model info retrieved successfully: {
   "name": "Penguins Prediction",
   "description": "Predict penguin species based on bill length and flipper length.",
@@ -1115,9 +1115,9 @@ Model info retrieved successfully: {
     }
   }
 }
-2025-05-03 02:07:36,167 — INFO — Model training completed.
+2025-05-03 02:07:36,167 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 02:07:36,168 — INFO — Model Training Summary - 2025-05-03 02:07:36
+2025-05-03 02:07:36,168 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 02:07:36
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1126,9 +1126,9 @@ Model info retrieved successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 02:07:36,188 — INFO — Model training completed.
+2025-05-03 02:07:36,188 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 02:07:36,188 — INFO — Model Training Summary - 2025-05-03 02:07:36
+2025-05-03 02:07:36,188 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 02:07:36
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1137,9 +1137,9 @@ Model info retrieved successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 02:08:02,890 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 02:08:02,894 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 02:08:02,909 — INFO — 
+2025-05-03 02:08:02,890 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 02:08:02,894 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 02:08:02,909 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1182,7 +1182,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 02:08:02,911 — INFO — Predictions from file: [
+2025-05-03 02:08:02,911 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1224,9 +1224,9 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 11:51:16,170 — INFO — Model training completed.
+2025-05-03 11:51:16,170 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 11:51:16,171 — INFO — Model Training Summary - 2025-05-03 11:51:16
+2025-05-03 11:51:16,171 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 11:51:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1235,9 +1235,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 11:51:16,191 — INFO — Model training completed.
+2025-05-03 11:51:16,191 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 11:51:16,192 — INFO — Model Training Summary - 2025-05-03 11:51:16
+2025-05-03 11:51:16,192 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 11:51:16
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1246,7 +1246,7 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 11:54:41,142 — INFO — 
+2025-05-03 11:54:41,142 ï¿½ INFO ï¿½ 
 Model info retrieved successfully: {
   "name": "Penguins Prediction",
   "description": "Predict penguin species based on bill length and flipper length.",
@@ -1265,9 +1265,9 @@ Model info retrieved successfully: {
     }
   }
 }
-2025-05-03 11:55:09,115 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 11:55:09,120 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 11:55:09,142 — INFO — 
+2025-05-03 11:55:09,115 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 11:55:09,120 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 11:55:09,142 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1310,7 +1310,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 11:55:09,143 — INFO — Predictions from file: [
+2025-05-03 11:55:09,143 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1352,10 +1352,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 11:55:09,143 — INFO — Exporting 5 predictions to CSV format
-2025-05-03 12:01:48,844 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 12:01:48,848 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 12:01:48,859 — INFO — 
+2025-05-03 11:55:09,143 ï¿½ INFO ï¿½ Exporting 5 predictions to CSV format
+2025-05-03 12:01:48,844 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 12:01:48,848 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:01:48,859 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1398,7 +1398,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:01:48,860 — INFO — Predictions from file: [
+2025-05-03 12:01:48,860 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1440,10 +1440,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:01:48,860 — INFO — Exporting 5 predictions to EXCEL format
-2025-05-03 12:01:55,065 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 12:01:55,066 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 12:01:55,078 — INFO — 
+2025-05-03 12:01:48,860 ï¿½ INFO ï¿½ Exporting 5 predictions to EXCEL format
+2025-05-03 12:01:55,065 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 12:01:55,066 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:01:55,078 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1486,7 +1486,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:01:55,079 — INFO — Predictions from file: [
+2025-05-03 12:01:55,079 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1528,10 +1528,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:01:55,079 — INFO — Exporting 5 predictions to CSV format
-2025-05-03 12:02:03,890 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 12:02:03,892 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 12:02:03,903 — INFO — 
+2025-05-03 12:01:55,079 ï¿½ INFO ï¿½ Exporting 5 predictions to CSV format
+2025-05-03 12:02:03,890 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 12:02:03,892 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:02:03,903 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1574,7 +1574,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:02:03,903 — INFO — Predictions from file: [
+2025-05-03 12:02:03,903 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1616,10 +1616,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:02:03,904 — INFO — Exporting 5 predictions to EXCEL format
-2025-05-03 12:06:46,883 — INFO — Model training completed.
+2025-05-03 12:02:03,904 ï¿½ INFO ï¿½ Exporting 5 predictions to EXCEL format
+2025-05-03 12:06:46,883 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:06:46,884 — INFO — Model Training Summary - 2025-05-03 12:06:46
+2025-05-03 12:06:46,884 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:06:46
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1628,9 +1628,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:06:46,900 — INFO — Model training completed.
+2025-05-03 12:06:46,900 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:06:46,901 — INFO — Model Training Summary - 2025-05-03 12:06:46
+2025-05-03 12:06:46,901 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:06:46
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1639,9 +1639,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:08:57,665 — INFO — Model training completed.
+2025-05-03 12:08:57,665 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:08:57,665 — INFO — Model Training Summary - 2025-05-03 12:08:57
+2025-05-03 12:08:57,665 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:08:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1650,9 +1650,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:08:57,680 — INFO — Model training completed.
+2025-05-03 12:08:57,680 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:08:57,680 — INFO — Model Training Summary - 2025-05-03 12:08:57
+2025-05-03 12:08:57,680 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:08:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1661,9 +1661,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:09:24,343 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 12:09:24,348 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 12:09:24,361 — INFO — 
+2025-05-03 12:09:24,343 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 12:09:24,348 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:09:24,361 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1706,7 +1706,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:09:24,362 — INFO — Predictions from file: [
+2025-05-03 12:09:24,362 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1748,10 +1748,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:09:24,363 — INFO — Exporting 5 predictions to EXCEL format
-2025-05-03 12:18:56,636 — INFO — Model training completed.
+2025-05-03 12:09:24,363 ï¿½ INFO ï¿½ Exporting 5 predictions to EXCEL format
+2025-05-03 12:18:56,636 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:18:56,637 — INFO — Model Training Summary - 2025-05-03 12:18:56
+2025-05-03 12:18:56,637 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:18:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1760,9 +1760,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:18:56,651 — INFO — Model training completed.
+2025-05-03 12:18:56,651 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:18:56,651 — INFO — Model Training Summary - 2025-05-03 12:18:56
+2025-05-03 12:18:56,651 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:18:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1771,9 +1771,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:23:57,480 — INFO — Model training completed.
+2025-05-03 12:23:57,480 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:23:57,481 — INFO — Model Training Summary - 2025-05-03 12:23:57
+2025-05-03 12:23:57,481 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:23:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1782,9 +1782,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:23:57,503 — INFO — Model training completed.
+2025-05-03 12:23:57,503 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:23:57,503 — INFO — Model Training Summary - 2025-05-03 12:23:57
+2025-05-03 12:23:57,503 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:23:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1793,9 +1793,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:28:58,459 — INFO — Model training completed.
+2025-05-03 12:28:58,459 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:28:58,460 — INFO — Model Training Summary - 2025-05-03 12:28:58
+2025-05-03 12:28:58,460 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:28:58
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1804,9 +1804,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:28:58,499 — INFO — Model training completed.
+2025-05-03 12:28:58,499 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:28:58,500 — INFO — Model Training Summary - 2025-05-03 12:28:58
+2025-05-03 12:28:58,500 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:28:58
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1815,9 +1815,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:33:58,645 — INFO — Model training completed.
+2025-05-03 12:33:58,645 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:33:58,646 — INFO — Model Training Summary - 2025-05-03 12:33:58
+2025-05-03 12:33:58,646 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:33:58
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1826,9 +1826,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:33:58,698 — INFO — Model training completed.
+2025-05-03 12:33:58,698 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:33:58,698 — INFO — Model Training Summary - 2025-05-03 12:33:58
+2025-05-03 12:33:58,698 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:33:58
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1837,9 +1837,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:43:59,340 — INFO — Model training completed.
+2025-05-03 12:43:59,340 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:43:59,340 — INFO — Model Training Summary - 2025-05-03 12:43:59
+2025-05-03 12:43:59,340 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:43:59
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1848,9 +1848,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:43:59,362 — INFO — Model training completed.
+2025-05-03 12:43:59,362 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:43:59,362 — INFO — Model Training Summary - 2025-05-03 12:43:59
+2025-05-03 12:43:59,362 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:43:59
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1859,9 +1859,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:47:38,908 — INFO — Model training completed.
+2025-05-03 12:47:38,908 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:47:38,909 — INFO — Model Training Summary - 2025-05-03 12:47:38
+2025-05-03 12:47:38,909 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:47:38
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1870,9 +1870,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:47:38,930 — INFO — Model training completed.
+2025-05-03 12:47:38,930 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:47:38,931 — INFO — Model Training Summary - 2025-05-03 12:47:38
+2025-05-03 12:47:38,931 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:47:38
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -1881,9 +1881,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:48:31,971 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 12:48:31,979 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 12:48:32,005 — INFO — 
+2025-05-03 12:48:31,971 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 12:48:31,979 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:48:32,005 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -1926,7 +1926,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:48:32,008 — INFO — Predictions from file: [
+2025-05-03 12:48:32,008 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -1968,10 +1968,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:48:32,009 — INFO — Exporting 5 predictions to CSV format
-2025-05-03 12:48:59,929 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 12:48:59,932 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 12:48:59,949 — INFO — 
+2025-05-03 12:48:32,009 ï¿½ INFO ï¿½ Exporting 5 predictions to CSV format
+2025-05-03 12:48:59,929 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 12:48:59,932 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 12:48:59,949 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -2014,7 +2014,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:48:59,951 — INFO — Predictions from file: [
+2025-05-03 12:48:59,951 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -2056,10 +2056,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 12:48:59,952 — INFO — Exporting 5 predictions to EXCEL format
-2025-05-03 12:52:40,898 — INFO — Model training completed.
+2025-05-03 12:48:59,952 ï¿½ INFO ï¿½ Exporting 5 predictions to EXCEL format
+2025-05-03 12:52:40,898 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:52:40,900 — INFO — Model Training Summary - 2025-05-03 12:52:40
+2025-05-03 12:52:40,900 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:52:40
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2068,9 +2068,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:52:40,934 — INFO — Model training completed.
+2025-05-03 12:52:40,934 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:52:40,935 — INFO — Model Training Summary - 2025-05-03 12:52:40
+2025-05-03 12:52:40,935 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:52:40
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2079,9 +2079,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:54:21,779 — INFO — Model training completed.
+2025-05-03 12:54:21,779 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:54:21,779 — INFO — Model Training Summary - 2025-05-03 12:54:21
+2025-05-03 12:54:21,779 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:54:21
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2090,9 +2090,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 12:54:21,801 — INFO — Model training completed.
+2025-05-03 12:54:21,801 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 12:54:21,801 — INFO — Model Training Summary - 2025-05-03 12:54:21
+2025-05-03 12:54:21,801 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 12:54:21
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2101,9 +2101,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 13:10:05,520 — INFO — Model training completed.
+2025-05-03 13:10:05,520 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 13:10:05,521 — INFO — Model Training Summary - 2025-05-03 13:10:05
+2025-05-03 13:10:05,521 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 13:10:05
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2112,9 +2112,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 13:10:05,549 — INFO — Model training completed.
+2025-05-03 13:10:05,549 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 13:10:05,549 — INFO — Model Training Summary - 2025-05-03 13:10:05
+2025-05-03 13:10:05,549 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 13:10:05
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2123,9 +2123,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 13:11:35,749 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 13:11:35,757 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 13:11:35,783 — INFO — 
+2025-05-03 13:11:35,749 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 13:11:35,757 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 13:11:35,783 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -2168,7 +2168,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 13:11:35,786 — INFO — Predictions from file: [
+2025-05-03 13:11:35,786 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -2210,10 +2210,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 13:11:35,787 — INFO — Exporting 5 predictions to CSV format
-2025-05-03 13:11:54,602 — INFO — Starting to parse file: sample_penguins.csv
-2025-05-03 13:11:54,606 — INFO — Loaded file: sample_penguins.csv with 5 rows.
-2025-05-03 13:11:54,633 — INFO — 
+2025-05-03 13:11:35,787 ï¿½ INFO ï¿½ Exporting 5 predictions to CSV format
+2025-05-03 13:11:54,602 ï¿½ INFO ï¿½ Starting to parse file: sample_penguins.csv
+2025-05-03 13:11:54,606 ï¿½ INFO ï¿½ Loaded file: sample_penguins.csv with 5 rows.
+2025-05-03 13:11:54,633 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -2256,7 +2256,7 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 13:11:54,635 — INFO — Predictions from file: [
+2025-05-03 13:11:54,635 ï¿½ INFO ï¿½ Predictions from file: [
   {
     "prediction": "Adelie",
     "probabilities": {
@@ -2298,10 +2298,10 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-03 13:11:54,636 — INFO — Exporting 5 predictions to EXCEL format
-2025-05-03 19:27:04,763 — INFO — Model training completed.
+2025-05-03 13:11:54,636 ï¿½ INFO ï¿½ Exporting 5 predictions to EXCEL format
+2025-05-03 19:27:04,763 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 19:27:04,763 — INFO — Model Training Summary - 2025-05-03 19:27:04
+2025-05-03 19:27:04,763 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 19:27:04
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2310,9 +2310,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 19:27:04,779 — INFO — Model training completed.
+2025-05-03 19:27:04,779 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 19:27:04,779 — INFO — Model Training Summary - 2025-05-03 19:27:04
+2025-05-03 19:27:04,779 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 19:27:04
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2321,9 +2321,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:21:54,956 — INFO — Model training completed.
+2025-05-03 22:21:54,956 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:21:54,957 — INFO — Model Training Summary - 2025-05-03 22:21:54
+2025-05-03 22:21:54,957 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:21:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2332,9 +2332,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:21:54,973 — INFO — Model training completed.
+2025-05-03 22:21:54,973 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:21:54,973 — INFO — Model Training Summary - 2025-05-03 22:21:54
+2025-05-03 22:21:54,973 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:21:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2343,9 +2343,9 @@ Batch model predicted successfully: [
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:29:57,807 — INFO — Saved 1 new predictions.
-2025-05-03 22:29:57,810 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 22:29:57,811 — INFO — 
+2025-05-03 22:29:57,807 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 22:29:57,810 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 22:29:57,811 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2354,9 +2354,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 22:48:35,019 — INFO — Model training completed.
+2025-05-03 22:48:35,019 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:48:35,019 — INFO — Model Training Summary - 2025-05-03 22:48:35
+2025-05-03 22:48:35,019 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:48:35
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2365,9 +2365,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:48:35,035 — INFO — Model training completed.
+2025-05-03 22:48:35,035 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:48:35,035 — INFO — Model Training Summary - 2025-05-03 22:48:35
+2025-05-03 22:48:35,035 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:48:35
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2376,9 +2376,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:49:20,045 — INFO — Saved 1 new predictions.
-2025-05-03 22:49:20,046 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 22:49:20,048 — INFO — 
+2025-05-03 22:49:20,045 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 22:49:20,046 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 22:49:20,048 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2387,9 +2387,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 22:54:07,642 — INFO — Model training completed.
+2025-05-03 22:54:07,642 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:54:07,643 — INFO — Model Training Summary - 2025-05-03 22:54:07
+2025-05-03 22:54:07,643 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:54:07
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2398,9 +2398,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:54:07,660 — INFO — Model training completed.
+2025-05-03 22:54:07,660 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:54:07,660 — INFO — Model Training Summary - 2025-05-03 22:54:07
+2025-05-03 22:54:07,660 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:54:07
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2409,10 +2409,10 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:55:19,902 — ERROR — Single prediction failed: 'coroutine' object is not iterable
-2025-05-03 22:56:44,752 — INFO — Model training completed.
+2025-05-03 22:55:19,902 ï¿½ ERROR ï¿½ Single prediction failed: 'coroutine' object is not iterable
+2025-05-03 22:56:44,752 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:56:44,752 — INFO — Model Training Summary - 2025-05-03 22:56:44
+2025-05-03 22:56:44,752 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:56:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2421,9 +2421,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:56:44,767 — INFO — Model training completed.
+2025-05-03 22:56:44,767 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:56:44,767 — INFO — Model Training Summary - 2025-05-03 22:56:44
+2025-05-03 22:56:44,767 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:56:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2432,9 +2432,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:57:18,627 — INFO — Saved 1 new predictions.
-2025-05-03 22:57:18,629 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 22:57:18,630 — INFO — 
+2025-05-03 22:57:18,627 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 22:57:18,629 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 22:57:18,630 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2443,9 +2443,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 22:59:36,633 — INFO — Model training completed.
+2025-05-03 22:59:36,633 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:59:36,634 — INFO — Model Training Summary - 2025-05-03 22:59:36
+2025-05-03 22:59:36,634 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:59:36
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2454,9 +2454,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 22:59:36,649 — INFO — Model training completed.
+2025-05-03 22:59:36,649 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 22:59:36,649 — INFO — Model Training Summary - 2025-05-03 22:59:36
+2025-05-03 22:59:36,649 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 22:59:36
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2465,9 +2465,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:00:05,241 — INFO — Saved 1 new predictions.
-2025-05-03 23:00:05,243 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:00:05,246 — INFO — 
+2025-05-03 23:00:05,241 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:00:05,243 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:00:05,246 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2476,9 +2476,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:04:35,602 — INFO — Model training completed.
+2025-05-03 23:04:35,602 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:04:35,603 — INFO — Model Training Summary - 2025-05-03 23:04:35
+2025-05-03 23:04:35,603 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:04:35
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2487,9 +2487,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:04:35,619 — INFO — Model training completed.
+2025-05-03 23:04:35,619 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:04:35,619 — INFO — Model Training Summary - 2025-05-03 23:04:35
+2025-05-03 23:04:35,619 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:04:35
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2498,9 +2498,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:05:34,699 — INFO — Model training completed.
+2025-05-03 23:05:34,699 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:05:34,699 — INFO — Model Training Summary - 2025-05-03 23:05:34
+2025-05-03 23:05:34,699 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:05:34
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2509,9 +2509,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:05:34,715 — INFO — Model training completed.
+2025-05-03 23:05:34,715 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:05:34,715 — INFO — Model Training Summary - 2025-05-03 23:05:34
+2025-05-03 23:05:34,715 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:05:34
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2520,9 +2520,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:06:38,199 — INFO — Saved 1 new predictions.
-2025-05-03 23:06:38,201 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:06:38,202 — INFO — 
+2025-05-03 23:06:38,199 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:06:38,201 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:06:38,202 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2531,9 +2531,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:11:41,570 — INFO — Model training completed.
+2025-05-03 23:11:41,570 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:11:41,570 — INFO — Model Training Summary - 2025-05-03 23:11:41
+2025-05-03 23:11:41,570 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:11:41
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2542,9 +2542,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:11:41,585 — INFO — Model training completed.
+2025-05-03 23:11:41,585 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:11:41,586 — INFO — Model Training Summary - 2025-05-03 23:11:41
+2025-05-03 23:11:41,586 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:11:41
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2553,9 +2553,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:12:09,766 — INFO — Saved 1 new predictions.
-2025-05-03 23:12:09,769 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:12:09,770 — INFO — 
+2025-05-03 23:12:09,766 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:12:09,769 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:12:09,770 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2564,9 +2564,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:13:05,956 — INFO — Saved 1 new predictions.
-2025-05-03 23:13:05,956 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:13:05,956 — INFO — 
+2025-05-03 23:13:05,956 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:13:05,956 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:13:05,956 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2575,9 +2575,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:17:25,896 — INFO — Model training completed.
+2025-05-03 23:17:25,896 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:17:25,896 — INFO — Model Training Summary - 2025-05-03 23:17:25
+2025-05-03 23:17:25,896 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:17:25
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2586,9 +2586,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:17:25,911 — INFO — Model training completed.
+2025-05-03 23:17:25,911 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:17:25,912 — INFO — Model Training Summary - 2025-05-03 23:17:25
+2025-05-03 23:17:25,912 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:17:25
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2597,9 +2597,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:18:07,497 — INFO — Saved 1 new predictions.
-2025-05-03 23:18:07,498 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:18:07,500 — INFO — 
+2025-05-03 23:18:07,497 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:18:07,498 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:18:07,500 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2608,9 +2608,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:19:54,266 — INFO — Model training completed.
+2025-05-03 23:19:54,266 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:19:54,267 — INFO — Model Training Summary - 2025-05-03 23:19:54
+2025-05-03 23:19:54,267 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:19:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2619,9 +2619,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:19:54,283 — INFO — Model training completed.
+2025-05-03 23:19:54,283 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:19:54,283 — INFO — Model Training Summary - 2025-05-03 23:19:54
+2025-05-03 23:19:54,283 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:19:54
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2630,9 +2630,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:20:24,042 — INFO — Saved 1 new predictions.
-2025-05-03 23:20:24,044 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:20:24,046 — INFO — 
+2025-05-03 23:20:24,042 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:20:24,044 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:20:24,046 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2641,9 +2641,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:29:53,439 — INFO — Model training completed.
+2025-05-03 23:29:53,439 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:29:53,439 — INFO — Model Training Summary - 2025-05-03 23:29:53
+2025-05-03 23:29:53,439 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:29:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2652,9 +2652,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:29:53,455 — INFO — Model training completed.
+2025-05-03 23:29:53,455 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:29:53,455 — INFO — Model Training Summary - 2025-05-03 23:29:53
+2025-05-03 23:29:53,455 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:29:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2663,9 +2663,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:39:53,829 — INFO — Model training completed.
+2025-05-03 23:39:53,829 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:39:53,830 — INFO — Model Training Summary - 2025-05-03 23:39:53
+2025-05-03 23:39:53,830 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:39:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2674,9 +2674,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:39:53,848 — INFO — Model training completed.
+2025-05-03 23:39:53,848 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:39:53,848 — INFO — Model Training Summary - 2025-05-03 23:39:53
+2025-05-03 23:39:53,848 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:39:53
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2685,9 +2685,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:40:27,200 — INFO — Model training completed.
+2025-05-03 23:40:27,200 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:40:27,200 — INFO — Model Training Summary - 2025-05-03 23:40:27
+2025-05-03 23:40:27,200 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:40:27
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2696,9 +2696,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:40:27,215 — INFO — Model training completed.
+2025-05-03 23:40:27,215 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:40:27,216 — INFO — Model Training Summary - 2025-05-03 23:40:27
+2025-05-03 23:40:27,216 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:40:27
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2707,9 +2707,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:41:05,215 — INFO — Model training completed.
+2025-05-03 23:41:05,215 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:41:05,215 — INFO — Model Training Summary - 2025-05-03 23:41:05
+2025-05-03 23:41:05,215 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:41:05
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2718,9 +2718,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:41:05,231 — INFO — Model training completed.
+2025-05-03 23:41:05,231 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:41:05,232 — INFO — Model Training Summary - 2025-05-03 23:41:05
+2025-05-03 23:41:05,232 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:41:05
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2729,9 +2729,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:42:18,928 — INFO — Saved 1 new predictions.
-2025-05-03 23:42:18,930 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-03 23:42:18,932 — INFO — 
+2025-05-03 23:42:18,928 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:42:18,930 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-03 23:42:18,932 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2740,9 +2740,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-03 23:51:04,249 — INFO — Model training completed.
+2025-05-03 23:51:04,249 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:51:04,250 — INFO — Model Training Summary - 2025-05-03 23:51:04
+2025-05-03 23:51:04,250 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:51:04
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2751,9 +2751,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:51:04,265 — INFO — Model training completed.
+2025-05-03 23:51:04,265 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:51:04,265 — INFO — Model Training Summary - 2025-05-03 23:51:04
+2025-05-03 23:51:04,265 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:51:04
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2762,9 +2762,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:51:44,229 — INFO — Model training completed.
+2025-05-03 23:51:44,229 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:51:44,229 — INFO — Model Training Summary - 2025-05-03 23:51:44
+2025-05-03 23:51:44,229 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:51:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2773,9 +2773,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:51:44,244 — INFO — Model training completed.
+2025-05-03 23:51:44,244 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:51:44,244 — INFO — Model Training Summary - 2025-05-03 23:51:44
+2025-05-03 23:51:44,244 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:51:44
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2784,9 +2784,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:51:57,436 — INFO — Model training completed.
+2025-05-03 23:51:57,436 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:51:57,436 — INFO — Model Training Summary - 2025-05-03 23:51:57
+2025-05-03 23:51:57,436 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:51:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2795,9 +2795,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:51:57,451 — INFO — Model training completed.
+2025-05-03 23:51:57,451 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-03 23:51:57,451 — INFO — Model Training Summary - 2025-05-03 23:51:57
+2025-05-03 23:51:57,451 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-03 23:51:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2806,10 +2806,10 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-03 23:52:24,403 — ERROR — Failed to write Excel file: [Errno 13] Permission denied: 'storage\\penguin_predictions.xlsx'
-2025-05-03 23:52:24,405 — INFO — Saved 1 new predictions.
-2025-05-03 23:52:24,406 — INFO — Prediction result saved successfully.
-2025-05-03 23:52:24,408 — INFO — 
+2025-05-03 23:52:24,403 ï¿½ ERROR ï¿½ Failed to write Excel file: [Errno 13] Permission denied: 'storage\\penguin_predictions.xlsx'
+2025-05-03 23:52:24,405 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-03 23:52:24,406 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-03 23:52:24,408 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Gentoo",
   "probabilities": {
@@ -2818,9 +2818,9 @@ Single model predicted successfully: {
     "Gentoo": 0.5454545454545454
   }
 }
-2025-05-04 00:01:56,649 — INFO — Model training completed.
+2025-05-04 00:01:56,649 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:01:56,649 — INFO — Model Training Summary - 2025-05-04 00:01:56
+2025-05-04 00:01:56,649 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:01:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2829,9 +2829,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:01:56,664 — INFO — Model training completed.
+2025-05-04 00:01:56,664 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:01:56,664 — INFO — Model Training Summary - 2025-05-04 00:01:56
+2025-05-04 00:01:56,664 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:01:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2840,9 +2840,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:06:00,709 — INFO — Model training completed.
+2025-05-04 00:06:00,709 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:06:00,710 — INFO — Model Training Summary - 2025-05-04 00:06:00
+2025-05-04 00:06:00,710 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:06:00
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2851,9 +2851,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:06:00,725 — INFO — Model training completed.
+2025-05-04 00:06:00,725 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:06:00,725 — INFO — Model Training Summary - 2025-05-04 00:06:00
+2025-05-04 00:06:00,725 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:06:00
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2862,10 +2862,10 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:08:36,377 — INFO — Successfully appended 1 rows to storage\penguin_predictions.csv
-2025-05-04 00:08:36,582 — INFO — Saved 1 new predictions.
-2025-05-04 00:08:36,583 — INFO — Prediction result saved successfully.
-2025-05-04 00:08:36,585 — INFO — 
+2025-05-04 00:08:36,377 ï¿½ INFO ï¿½ Successfully appended 1 rows to storage\penguin_predictions.csv
+2025-05-04 00:08:36,582 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-04 00:08:36,583 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-04 00:08:36,585 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -2874,9 +2874,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:13:47,329 — INFO — Model training completed.
+2025-05-04 00:13:47,329 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:13:47,329 — INFO — Model Training Summary - 2025-05-04 00:13:47
+2025-05-04 00:13:47,329 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:13:47
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2885,9 +2885,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:13:47,345 — INFO — Model training completed.
+2025-05-04 00:13:47,345 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:13:47,345 — INFO — Model Training Summary - 2025-05-04 00:13:47
+2025-05-04 00:13:47,345 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:13:47
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2896,9 +2896,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:13:57,815 — INFO — Model training completed.
+2025-05-04 00:13:57,815 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:13:57,815 — INFO — Model Training Summary - 2025-05-04 00:13:57
+2025-05-04 00:13:57,815 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:13:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2907,9 +2907,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:13:57,831 — INFO — Model training completed.
+2025-05-04 00:13:57,831 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:13:57,831 — INFO — Model Training Summary - 2025-05-04 00:13:57
+2025-05-04 00:13:57,831 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:13:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2918,11 +2918,11 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:14:20,996 — INFO — Successfully appended 1 rows to storage\penguin_predictions.csv
-2025-05-04 00:14:21,222 — INFO — Excel file successfully written to storage\penguin_predictions.xlsx with 2 rows.
-2025-05-04 00:14:21,223 — INFO — Saved 1 new predictions.
-2025-05-04 00:14:21,224 — INFO — Prediction result saved successfully.
-2025-05-04 00:14:21,225 — INFO — 
+2025-05-04 00:14:20,996 ï¿½ INFO ï¿½ Successfully appended 1 rows to storage\penguin_predictions.csv
+2025-05-04 00:14:21,222 ï¿½ INFO ï¿½ Excel file successfully written to storage\penguin_predictions.xlsx with 2 rows.
+2025-05-04 00:14:21,223 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-04 00:14:21,224 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-04 00:14:21,225 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -2931,9 +2931,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:23:57,575 — INFO — Model training completed.
+2025-05-04 00:23:57,575 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:23:57,576 — INFO — Model Training Summary - 2025-05-04 00:23:57
+2025-05-04 00:23:57,576 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:23:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2942,9 +2942,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:23:57,599 — INFO — Model training completed.
+2025-05-04 00:23:57,599 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:23:57,599 — INFO — Model Training Summary - 2025-05-04 00:23:57
+2025-05-04 00:23:57,599 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:23:57
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2953,9 +2953,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:24:18,489 — INFO — Model training completed.
+2025-05-04 00:24:18,489 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:24:18,490 — INFO — Model Training Summary - 2025-05-04 00:24:18
+2025-05-04 00:24:18,490 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:24:18
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2964,9 +2964,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:24:18,505 — INFO — Model training completed.
+2025-05-04 00:24:18,505 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:24:18,505 — INFO — Model Training Summary - 2025-05-04 00:24:18
+2025-05-04 00:24:18,505 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:24:18
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2975,9 +2975,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:24:33,962 — INFO — Model training completed.
+2025-05-04 00:24:33,962 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:24:33,962 — INFO — Model Training Summary - 2025-05-04 00:24:33
+2025-05-04 00:24:33,962 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:24:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2986,9 +2986,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:24:33,980 — INFO — Model training completed.
+2025-05-04 00:24:33,980 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:24:33,981 — INFO — Model Training Summary - 2025-05-04 00:24:33
+2025-05-04 00:24:33,981 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:24:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -2997,11 +2997,11 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:24:56,390 — INFO — Successfully appended 1 rows to storage\penguin_predictions.csv
-2025-05-04 00:24:56,608 — INFO — Excel file successfully written to storage\penguin_predictions.xlsx with total rows now 3.
-2025-05-04 00:24:56,609 — INFO — Saved 1 new predictions.
-2025-05-04 00:24:56,609 — INFO — Prediction result saved successfully.
-2025-05-04 00:24:56,610 — INFO — 
+2025-05-04 00:24:56,390 ï¿½ INFO ï¿½ Successfully appended 1 rows to storage\penguin_predictions.csv
+2025-05-04 00:24:56,608 ï¿½ INFO ï¿½ Excel file successfully written to storage\penguin_predictions.xlsx with total rows now 3.
+2025-05-04 00:24:56,609 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-04 00:24:56,609 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-04 00:24:56,610 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -3010,9 +3010,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:29:33,086 — INFO — Model training completed.
+2025-05-04 00:29:33,086 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:29:33,087 — INFO — Model Training Summary - 2025-05-04 00:29:33
+2025-05-04 00:29:33,087 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:29:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3021,9 +3021,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:29:33,103 — INFO — Model training completed.
+2025-05-04 00:29:33,103 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:29:33,103 — INFO — Model Training Summary - 2025-05-04 00:29:33
+2025-05-04 00:29:33,103 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:29:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3032,9 +3032,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:35:43,671 — INFO — Model training completed.
+2025-05-04 00:35:43,671 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:35:43,672 — INFO — Model Training Summary - 2025-05-04 00:35:43
+2025-05-04 00:35:43,672 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:35:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3043,9 +3043,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:35:43,687 — INFO — Model training completed.
+2025-05-04 00:35:43,687 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:35:43,687 — INFO — Model Training Summary - 2025-05-04 00:35:43
+2025-05-04 00:35:43,687 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:35:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3054,11 +3054,11 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:36:19,892 — INFO — Successfully appended 1 rows to storage\penguin_predictions.csv
-2025-05-04 00:36:20,114 — INFO — Excel file successfully written to storage\penguin_predictions.xlsx with total rows now 4.
-2025-05-04 00:36:20,114 — INFO — Saved 1 new predictions.
-2025-05-04 00:36:20,115 — INFO — Prediction result saved successfully.
-2025-05-04 00:36:20,116 — INFO — 
+2025-05-04 00:36:19,892 ï¿½ INFO ï¿½ Successfully appended 1 rows to storage\penguin_predictions.csv
+2025-05-04 00:36:20,114 ï¿½ INFO ï¿½ Excel file successfully written to storage\penguin_predictions.xlsx with total rows now 4.
+2025-05-04 00:36:20,114 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-04 00:36:20,115 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-04 00:36:20,116 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -3067,9 +3067,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:45:42,705 — INFO — Model training completed.
+2025-05-04 00:45:42,705 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:45:42,705 — INFO — Model Training Summary - 2025-05-04 00:45:42
+2025-05-04 00:45:42,705 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:45:42
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3078,9 +3078,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:45:42,720 — INFO — Model training completed.
+2025-05-04 00:45:42,720 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:45:42,721 — INFO — Model Training Summary - 2025-05-04 00:45:42
+2025-05-04 00:45:42,721 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:45:42
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3089,9 +3089,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:47:43,884 — INFO — Model training completed.
+2025-05-04 00:47:43,884 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:47:43,884 — INFO — Model Training Summary - 2025-05-04 00:47:43
+2025-05-04 00:47:43,884 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:47:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3100,9 +3100,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:47:43,899 — INFO — Model training completed.
+2025-05-04 00:47:43,899 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:47:43,900 — INFO — Model Training Summary - 2025-05-04 00:47:43
+2025-05-04 00:47:43,900 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:47:43
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3111,9 +3111,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:47:55,626 — INFO — Model training completed.
+2025-05-04 00:47:55,626 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:47:55,626 — INFO — Model Training Summary - 2025-05-04 00:47:55
+2025-05-04 00:47:55,626 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:47:55
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3122,9 +3122,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:47:55,647 — INFO — Model training completed.
+2025-05-04 00:47:55,647 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:47:55,648 — INFO — Model Training Summary - 2025-05-04 00:47:55
+2025-05-04 00:47:55,648 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:47:55
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3133,9 +3133,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:48:54,387 — INFO — No new predictions to append. All entries are duplicates.
-2025-05-04 00:48:54,388 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-04 00:48:54,389 — INFO — 
+2025-05-04 00:48:54,387 ï¿½ INFO ï¿½ No new predictions to append. All entries are duplicates.
+2025-05-04 00:48:54,388 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-04 00:48:54,389 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -3144,9 +3144,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:49:56,819 — INFO — Model training completed.
+2025-05-04 00:49:56,819 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:49:56,820 — INFO — Model Training Summary - 2025-05-04 00:49:56
+2025-05-04 00:49:56,820 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:49:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3155,9 +3155,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:49:56,835 — INFO — Model training completed.
+2025-05-04 00:49:56,835 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:49:56,835 — INFO — Model Training Summary - 2025-05-04 00:49:56
+2025-05-04 00:49:56,835 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:49:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3166,9 +3166,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:50:45,017 — INFO — No new predictions to append. All entries are duplicates.
-2025-05-04 00:50:45,019 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-04 00:50:45,021 — INFO — 
+2025-05-04 00:50:45,017 ï¿½ INFO ï¿½ No new predictions to append. All entries are duplicates.
+2025-05-04 00:50:45,019 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-04 00:50:45,021 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -3177,9 +3177,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:52:33,737 — INFO — Model training completed.
+2025-05-04 00:52:33,737 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:52:33,737 — INFO — Model Training Summary - 2025-05-04 00:52:33
+2025-05-04 00:52:33,737 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:52:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3188,9 +3188,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:52:33,752 — INFO — Model training completed.
+2025-05-04 00:52:33,752 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 00:52:33,753 — INFO — Model Training Summary - 2025-05-04 00:52:33
+2025-05-04 00:52:33,753 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 00:52:33
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3199,11 +3199,11 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 00:53:15,605 — INFO — Successfully appended 1 rows to PredictionStorage\penguin_predictions.csv
-2025-05-04 00:53:15,840 — INFO — Excel file successfully written to PredictionStorage\penguin_predictions.xlsx with total rows now 1.
-2025-05-04 00:53:15,841 — INFO — Saved 1 new predictions.
-2025-05-04 00:53:15,842 — INFO — Prediction result saved successfully.
-2025-05-04 00:53:15,845 — INFO — 
+2025-05-04 00:53:15,605 ï¿½ INFO ï¿½ Successfully appended 1 rows to PredictionStorage\penguin_predictions.csv
+2025-05-04 00:53:15,840 ï¿½ INFO ï¿½ Excel file successfully written to PredictionStorage\penguin_predictions.xlsx with total rows now 1.
+2025-05-04 00:53:15,841 ï¿½ INFO ï¿½ Saved 1 new predictions.
+2025-05-04 00:53:15,842 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-04 00:53:15,845 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -3212,9 +3212,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 00:53:32,279 — INFO — No new predictions to append. All entries are duplicates.
-2025-05-04 00:53:32,279 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-04 00:53:32,279 — INFO — 
+2025-05-04 00:53:32,279 ï¿½ INFO ï¿½ No new predictions to append. All entries are duplicates.
+2025-05-04 00:53:32,279 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-04 00:53:32,279 ï¿½ INFO ï¿½ 
 Single model predicted successfully: {
   "prediction": "Adelie",
   "probabilities": {
@@ -3223,9 +3223,9 @@ Single model predicted successfully: {
     "Gentoo": 0.0
   }
 }
-2025-05-04 01:01:56,111 — INFO — Model training completed.
+2025-05-04 01:01:56,111 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 01:01:56,111 — INFO — Model Training Summary - 2025-05-04 01:01:56
+2025-05-04 01:01:56,111 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 01:01:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3234,9 +3234,9 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 01:01:56,126 — INFO — Model training completed.
+2025-05-04 01:01:56,126 ï¿½ INFO ï¿½ Model training completed.
 
-2025-05-04 01:01:56,126 — INFO — Model Training Summary - 2025-05-04 01:01:56
+2025-05-04 01:01:56,126 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 01:01:56
         -------------------------------------------------
         Rows loaded      : 355
         Rows after clean : 337
@@ -3245,11 +3245,11 @@ Single model predicted successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
-2025-05-04 01:06:31,758 — INFO — Successfully appended 3 rows to PredictionStorage\penguin_predictions.csv
-2025-05-04 01:06:31,904 — INFO — Excel file successfully written to PredictionStorage\penguin_predictions.xlsx with total rows now 4.
-2025-05-04 01:06:31,904 — INFO — Saved 3 new predictions.
-2025-05-04 01:06:31,905 — INFO — Prediction result saved successfully.
-2025-05-04 01:06:31,907 — INFO — 
+2025-05-04 01:06:31,758 ï¿½ INFO ï¿½ Successfully appended 3 rows to PredictionStorage\penguin_predictions.csv
+2025-05-04 01:06:31,904 ï¿½ INFO ï¿½ Excel file successfully written to PredictionStorage\penguin_predictions.xlsx with total rows now 4.
+2025-05-04 01:06:31,904 ï¿½ INFO ï¿½ Saved 3 new predictions.
+2025-05-04 01:06:31,905 ï¿½ INFO ï¿½ Prediction result saved successfully.
+2025-05-04 01:06:31,907 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -3276,9 +3276,9 @@ Batch model predicted successfully: [
     }
   }
 ]
-2025-05-04 01:07:28,197 — INFO — No new predictions to append. All entries are duplicates.
-2025-05-04 01:07:28,198 — WARNING — Prediction result was not saved (possibly duplicate or write failure).
-2025-05-04 01:07:28,198 — INFO — 
+2025-05-04 01:07:28,197 ï¿½ INFO ï¿½ No new predictions to append. All entries are duplicates.
+2025-05-04 01:07:28,198 ï¿½ WARNING ï¿½ Prediction result was not saved (possibly duplicate or write failure).
+2025-05-04 01:07:28,198 ï¿½ INFO ï¿½ 
 Batch model predicted successfully: [
   {
     "prediction": "Adelie",
@@ -3302,6 +3302,746 @@ Batch model predicted successfully: [
       "Adelie": 0.0,
       "Chinstrap": 0.0,
       "Gentoo": 1.0
+    }
+  }
+]
+2025-05-04 19:37:31,951 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 19:37:31,951 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 19:37:31,952 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 19:37:31,952 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 19:37:33,543 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 19:37:33,544 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 19:37:33,544 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 19:37:33,544 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 19:37:33,626 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 19:37:33,627 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 19:37:33
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 19:37:33,685 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 19:37:33,686 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 19:37:33
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 19:38:17,262 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 19:38:17,264 ï¿½ INFO ï¿½ Get existing data from GitHub repository
+2025-05-04 19:38:18,225 ï¿½ ERROR ï¿½ Failed to retrieve file from GitHub: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}
+2025-05-04 19:38:19,266 ï¿½ ERROR ï¿½ Failed to retrieve file from GitHub: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}
+2025-05-04 19:38:19,499 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 19:38:19,500 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 19:38:19,500 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 19:38:20,367 ï¿½ INFO ï¿½ No existing file found (404)
+2025-05-04 19:38:20,368 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv
+2025-05-04 19:38:20,725 ï¿½ INFO ï¿½ Upload status: 403
+2025-05-04 19:38:20,725 ï¿½ ERROR ï¿½ Upload failed: {"message":"Resource not accessible by personal access token","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"403"}
+2025-05-04 19:38:20,726 ï¿½ ERROR ï¿½ Failed to upload CSV prediction file.
+2025-05-04 19:38:20,726 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 19:38:20,727 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 19:38:20,727 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 19:38:21,062 ï¿½ INFO ï¿½ No existing file found (404)
+2025-05-04 19:38:21,063 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 19:38:21,456 ï¿½ INFO ï¿½ Upload status: 403
+2025-05-04 19:38:21,457 ï¿½ ERROR ï¿½ Upload failed: {"message":"Resource not accessible by personal access token","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"403"}
+2025-05-04 19:38:21,458 ï¿½ ERROR ï¿½ Failed to upload Excel prediction file.
+2025-05-04 19:38:21,459 ï¿½ WARNING ï¿½ One or more prediction files failed to upload.
+2025-05-04 19:38:21,459 ï¿½ WARNING ï¿½ Github prediction result was not saved (possibly duplicate or write failure).
+2025-05-04 19:38:21,461 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 20:15:37,873 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:15:37,873 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:15:37,873 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:15:37,873 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:15:39,536 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:15:39,536 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:15:39,537 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:15:39,537 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:15:39,588 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:15:39,588 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:15:39
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:15:39,651 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:15:39,651 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:15:39
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:15:53,353 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:15:53,354 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:15:53,354 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:15:53,354 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:15:54,890 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:15:54,890 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:15:54,891 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:15:54,891 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:15:54,937 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:15:54,938 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:15:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:15:54,994 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:15:54,995 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:15:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:16:52,381 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:16:52,382 ï¿½ INFO ï¿½ Get existing data from GitHub repository
+2025-05-04 20:16:53,296 ï¿½ ERROR ï¿½ Failed to retrieve file from GitHub: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}
+2025-05-04 20:16:54,283 ï¿½ ERROR ï¿½ Failed to retrieve file from GitHub: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}
+2025-05-04 20:16:54,414 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:16:54,415 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:16:54,415 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:16:55,375 ï¿½ INFO ï¿½ No existing file found (404)
+2025-05-04 20:16:55,376 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:16:56,288 ï¿½ INFO ï¿½ Upload status: 201
+2025-05-04 20:16:56,289 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:16:56,289 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 20:16:56,290 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:16:56,291 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:16:56,291 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:16:56,712 ï¿½ INFO ï¿½ No existing file found (404)
+2025-05-04 20:16:56,712 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:16:57,773 ï¿½ INFO ï¿½ Upload status: 201
+2025-05-04 20:16:57,774 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:16:57,774 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 20:16:57,775 ï¿½ INFO ï¿½ All prediction files uploaded successfully to GitHub.
+2025-05-04 20:16:57,776 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:16:57,778 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 20:20:51,441 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:20:51,443 ï¿½ INFO ï¿½ Get existing data from GitHub repository
+2025-05-04 20:20:53,406 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:20:53,446 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:20:53,447 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:20:53,448 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:20:54,585 ï¿½ INFO ï¿½ Found existing SHA: 89762d4fa5def6eb016fd8343a265edd11173b28
+2025-05-04 20:20:54,586 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:20:55,322 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:20:55,323 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:20:55,324 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 20:20:55,324 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:20:55,325 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:20:55,325 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:20:56,336 ï¿½ INFO ï¿½ Found existing SHA: f982f14db9b4ffa1625f878c7a1bf7eab91c1ade
+2025-05-04 20:20:56,337 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:20:57,402 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:20:57,403 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:20:57,404 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 20:20:57,404 ï¿½ INFO ï¿½ All prediction files uploaded successfully to GitHub.
+2025-05-04 20:20:57,405 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:20:57,406 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 20:25:16,001 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:25:16,002 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:25:16,002 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:25:16,002 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:25:17,626 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:25:17,627 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:25:17,627 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:25:17,627 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:25:17,675 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:25:17,675 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:25:17
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:25:17,738 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:25:17,738 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:25:17
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:29:28,821 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:29:28,822 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:29:28,822 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:29:28,822 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:29:30,495 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:29:30,495 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:29:30,495 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:29:30,496 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:29:30,544 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:29:30,545 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:29:30
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:29:30,606 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:29:30,607 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:29:30
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:32:52,559 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:32:52,560 ï¿½ INFO ï¿½ Get existing data from GitHub repository
+2025-05-04 20:32:54,268 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:32:54,380 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:32:54,381 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:32:54,381 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:32:55,167 ï¿½ INFO ï¿½ Found existing SHA: a13c79ea5bafa2e5c59b44500416a1cffd666505
+2025-05-04 20:32:55,168 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:32:55,830 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:32:55,831 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:32:55,832 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 20:32:55,833 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:32:55,833 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:32:55,833 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:32:56,345 ï¿½ INFO ï¿½ Found existing SHA: 2b20fce78416d641ba32967def04bff389893347
+2025-05-04 20:32:56,346 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:32:57,345 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:32:57,346 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:32:57,347 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 20:32:57,347 ï¿½ INFO ï¿½ All prediction files uploaded successfully to GitHub.
+2025-05-04 20:32:57,347 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:32:57,349 ï¿½ INFO ï¿½ 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-04 20:33:11,010 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:33:11,011 ï¿½ INFO ï¿½ Get existing data from GitHub repository
+2025-05-04 20:33:16,248 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:33:16,296 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:33:16,297 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:33:16,298 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:33:17,067 ï¿½ INFO ï¿½ Found existing SHA: 7f295a901384bfbcf8c05f779e85282f8e0f4e62
+2025-05-04 20:33:17,068 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:33:17,908 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:33:17,908 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:33:17,909 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 20:33:17,909 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:33:17,910 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:33:17,910 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:33:18,289 ï¿½ INFO ï¿½ Found existing SHA: 19abf52c2e4a15ea7032c20e3e26b5952689b125
+2025-05-04 20:33:18,290 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:33:19,331 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:33:19,332 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:33:19,333 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 20:33:19,333 ï¿½ INFO ï¿½ All prediction files uploaded successfully to GitHub.
+2025-05-04 20:33:19,334 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:33:19,335 ï¿½ INFO ï¿½ 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-04 20:35:00,496 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:35:00,497 ï¿½ INFO ï¿½ Get existing data from GitHub repository
+2025-05-04 20:35:04,987 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:35:05,029 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:35:05,030 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:35:05,031 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:35:06,728 ï¿½ INFO ï¿½ Found existing SHA: 7d24ce5a75da6c46a44166b071bfa6b84cac8329
+2025-05-04 20:35:06,729 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:35:07,468 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:35:07,469 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:35:07,470 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 20:35:07,471 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:35:07,472 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:35:07,473 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:35:08,540 ï¿½ INFO ï¿½ Found existing SHA: 502e07f790fcff6103bbbd6109d778fa30b8b9a3
+2025-05-04 20:35:08,541 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:35:09,374 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:35:09,375 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:35:09,375 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 20:35:09,376 ï¿½ INFO ï¿½ All prediction files uploaded successfully to GitHub.
+2025-05-04 20:35:09,377 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:35:09,377 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 20:47:40,679 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:47:40,679 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:47:40,679 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:47:40,680 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:47:42,360 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:47:42,360 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:47:42,361 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:47:42,361 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:47:42,410 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:47:42,410 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:47:42
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:47:42,468 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:47:42,468 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:47:42
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:48:45,756 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:48:47,861 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:48:48,016 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:48:48,016 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:48:48,017 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:48:48,910 ï¿½ INFO ï¿½ Found existing SHA: d04fd1a7dd9ae8f2678cf539aff0eadaba292bd0
+2025-05-04 20:48:48,911 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:48:49,761 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:48:49,762 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:48:49,762 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:48:49,763 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:48:49,763 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:48:50,216 ï¿½ INFO ï¿½ Found existing SHA: 5a8585e893bb5946fec41bc08860ecc01459a84b
+2025-05-04 20:48:50,216 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:48:51,280 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:48:51,280 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:48:51,281 ï¿½ INFO ï¿½ Prediction files uploaded successfully.
+2025-05-04 20:48:51,281 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:48:51,282 ï¿½ INFO ï¿½ 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-04 20:49:18,631 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:49:20,497 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:49:20,560 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:49:20,561 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:49:20,562 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:49:21,306 ï¿½ INFO ï¿½ Found existing SHA: f66a01501fc3f1e7d9e29565665c3aed461f3c0e
+2025-05-04 20:49:21,306 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:49:22,086 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:49:22,087 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:49:22,087 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:49:22,088 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:49:22,089 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:49:22,531 ï¿½ INFO ï¿½ Found existing SHA: 5705a1bc6380a8e24b2b5d1199eaa71860faefd7
+2025-05-04 20:49:22,532 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:49:23,624 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:49:23,625 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:49:23,626 ï¿½ INFO ï¿½ Prediction files uploaded successfully.
+2025-05-04 20:49:23,626 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:49:23,627 ï¿½ INFO ï¿½ 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-04 20:49:47,564 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:49:49,382 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:49:49,439 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:49:49,440 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:49:49,440 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:49:50,313 ï¿½ INFO ï¿½ Found existing SHA: 95cb1194f4e939cc27cfb39b953e1cfe5b60ef2e
+2025-05-04 20:49:50,314 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:49:51,062 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:49:51,063 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:49:51,064 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:49:51,065 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:49:51,065 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:49:51,493 ï¿½ INFO ï¿½ Found existing SHA: 506962e7d03721d62fdcf8fec2b03ccf3bd8dc3b
+2025-05-04 20:49:51,494 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:49:52,410 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:49:52,411 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:49:52,411 ï¿½ INFO ï¿½ Prediction files uploaded successfully.
+2025-05-04 20:49:52,412 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:49:52,413 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 20:55:47,730 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:55:47,730 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:55:47,730 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:55:47,730 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:55:49,366 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 20:55:49,366 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 20:55:49,367 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 20:55:49,367 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 20:55:49,417 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:55:49,418 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:55:49
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:55:49,477 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 20:55:49,477 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 20:55:49
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 20:56:21,697 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 20:56:23,623 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 20:56:23,787 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 20:56:23,787 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:56:23,788 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:56:24,563 ï¿½ INFO ï¿½ Found existing SHA: a9a305a08c436f16857b861f95b730e3ba58b219
+2025-05-04 20:56:24,564 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 20:56:25,352 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:56:25,354 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 20:56:25,354 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 20:56:25,354 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:56:25,355 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:56:25,914 ï¿½ INFO ï¿½ Found existing SHA: 486302f176e23f85fd735d45b632260c04fcbc8f
+2025-05-04 20:56:25,914 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 20:56:26,911 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 20:56:26,912 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 20:56:26,913 ï¿½ INFO ï¿½ Prediction files uploaded successfully.
+2025-05-04 20:56:26,913 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 20:56:26,915 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 21:07:54,237 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 21:07:54,237 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 21:07:54,237 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 21:07:54,238 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 21:07:54,335 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 21:07:54,335 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 21:07:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 21:07:54,351 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 21:07:54,351 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 21:07:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 21:08:06,855 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 21:08:06,855 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 21:08:06,855 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 21:08:06,855 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 21:08:08,513 ï¿½ INFO ï¿½ GitHubUploader initialized with config:
+2025-05-04 21:08:08,514 ï¿½ INFO ï¿½ Username: Slimcent
+2025-05-04 21:08:08,514 ï¿½ INFO ï¿½ Repository: Penguis_Classifier
+2025-05-04 21:08:08,514 ï¿½ INFO ï¿½ Branch: main
+2025-05-04 21:08:08,606 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 21:08:08,606 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 21:08:08
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 21:08:08,621 ï¿½ INFO ï¿½ Model training completed.
+
+2025-05-04 21:08:08,622 ï¿½ INFO ï¿½ Model Training Summary - 2025-05-04 21:08:08
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 21:09:11,892 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 21:09:11,894 ï¿½ INFO ï¿½ Fetching existing data from GitHub repository
+2025-05-04 21:09:13,826 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 21:09:13,827 ï¿½ INFO ï¿½ Merging and deduplicating prediction data
+2025-05-04 21:09:13,828 ï¿½ INFO ï¿½ Preparing CSV and Excel contents for upload
+2025-05-04 21:09:13,964 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 21:09:13,965 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:09:13,965 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:09:14,854 ï¿½ INFO ï¿½ Found existing SHA: 95073c4e6aa7f97ba2b6391294ebd5c26de421c1
+2025-05-04 21:09:14,855 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 21:09:15,824 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:09:15,825 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:09:15,825 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 21:09:15,826 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 21:09:15,826 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:09:15,827 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:09:16,570 ï¿½ INFO ï¿½ Found existing SHA: 456e36bf81e332651651fe4adbe4a70fd9c65544
+2025-05-04 21:09:16,570 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 21:09:18,460 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:09:18,461 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:09:18,461 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 21:09:18,462 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 21:09:18,463 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 21:09:42,175 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 21:09:42,175 ï¿½ INFO ï¿½ Fetching existing data from GitHub repository
+2025-05-04 21:09:44,503 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 21:09:44,504 ï¿½ INFO ï¿½ Merging and deduplicating prediction data
+2025-05-04 21:09:44,504 ï¿½ INFO ï¿½ Preparing CSV and Excel contents for upload
+2025-05-04 21:09:44,543 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 21:09:44,544 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:09:44,544 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:09:45,418 ï¿½ INFO ï¿½ Found existing SHA: 95073c4e6aa7f97ba2b6391294ebd5c26de421c1
+2025-05-04 21:09:45,419 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 21:09:46,198 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:09:46,199 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:09:46,200 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 21:09:46,200 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 21:09:46,201 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:09:46,202 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:09:46,613 ï¿½ INFO ï¿½ Found existing SHA: 76c9907367f268e0d4476633162e35ab4ee7b6b6
+2025-05-04 21:09:46,614 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 21:09:47,655 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:09:47,656 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:09:47,657 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 21:09:47,657 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 21:09:47,658 ï¿½ INFO ï¿½ 
+Single model predicted successfully: {
+  "prediction": "Gentoo",
+  "probabilities": {
+    "Adelie": 0.45454545454545453,
+    "Chinstrap": 0.0,
+    "Gentoo": 0.5454545454545454
+  }
+}
+2025-05-04 21:10:32,704 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 21:10:32,705 ï¿½ INFO ï¿½ Fetching existing data from GitHub repository
+2025-05-04 21:10:35,289 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 21:10:35,289 ï¿½ INFO ï¿½ Merging and deduplicating prediction data
+2025-05-04 21:10:35,290 ï¿½ INFO ï¿½ Preparing CSV and Excel contents for upload
+2025-05-04 21:10:35,332 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 21:10:35,332 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:10:35,333 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:10:36,816 ï¿½ INFO ï¿½ Found existing SHA: 95073c4e6aa7f97ba2b6391294ebd5c26de421c1
+2025-05-04 21:10:36,817 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 21:10:37,867 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:10:37,868 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:10:37,868 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 21:10:37,869 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 21:10:37,870 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:10:37,870 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:10:38,320 ï¿½ INFO ï¿½ Found existing SHA: ed0f03e744c2a74d7ffba6c72d3528a711b46581
+2025-05-04 21:10:38,322 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 21:10:39,306 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:10:39,308 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:10:39,308 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 21:10:39,309 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 21:10:39,310 ï¿½ INFO ï¿½ 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-04 21:11:16,063 ï¿½ INFO ï¿½ Preparing prediction data for GitHub upload
+2025-05-04 21:11:16,063 ï¿½ INFO ï¿½ Fetching existing data from GitHub repository
+2025-05-04 21:11:18,204 ï¿½ ERROR ï¿½ Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 21:11:18,204 ï¿½ INFO ï¿½ Merging and deduplicating prediction data
+2025-05-04 21:11:18,206 ï¿½ INFO ï¿½ Preparing CSV and Excel contents for upload
+2025-05-04 21:11:18,245 ï¿½ INFO ï¿½ Uploading CSV prediction file to GitHub
+2025-05-04 21:11:18,246 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:11:18,247 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:11:19,054 ï¿½ INFO ï¿½ Found existing SHA: 34d59bf4b68a31a28a663cddd5d29b93de7ecf46
+2025-05-04 21:11:19,055 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 21:11:19,759 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:11:19,760 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:11:19,760 ï¿½ INFO ï¿½ CSV prediction file uploaded successfully.
+2025-05-04 21:11:19,761 ï¿½ INFO ï¿½ Uploading Excel prediction file to GitHub
+2025-05-04 21:11:19,762 ï¿½ INFO ï¿½ Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:11:19,763 ï¿½ INFO ï¿½ Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:11:20,386 ï¿½ INFO ï¿½ Found existing SHA: 0e2c24834abfa023a0443c360296195d7bd36da7
+2025-05-04 21:11:20,387 ï¿½ INFO ï¿½ Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 21:11:21,978 ï¿½ INFO ï¿½ Upload status: 200
+2025-05-04 21:11:21,978 ï¿½ INFO ï¿½ Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:11:21,979 ï¿½ INFO ï¿½ Excel prediction file uploaded successfully.
+2025-05-04 21:11:21,979 ï¿½ INFO ï¿½ Github prediction result saved successfully.
+2025-05-04 21:11:21,980 ï¿½ INFO ï¿½ 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
     }
   }
 ]

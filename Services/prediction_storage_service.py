@@ -1,15 +1,21 @@
 import io
+import json
 import os
 import csv
+import base64
 import aiofiles
 import pandas as pd
 from datetime import datetime
+from dotenv import load_dotenv
 from typing import Union, List, Dict
 from Services.logger_service import LoggerService
 from Core.global_model_loader import model_loader
+from Services.github_uploader import GitHubUploader
 from Infrastructure.app_constants import AppConstants
 from Dtos.Response.prediction_response import PredictionResponse
 from Dtos.Request.penguin_input_request import PenguinInputRequest
+
+load_dotenv()
 
 
 class PredictionStorageService:
@@ -22,6 +28,7 @@ class PredictionStorageService:
         os.makedirs(self.storage_folder, exist_ok=True)
         self.csv_path = os.path.join(self.storage_folder, f"{self.constants.prediction_storage_base}.csv")
         self.excel_path = os.path.join(self.storage_folder, f"{self.constants.prediction_storage_base}.xlsx")
+        self.github_uploader = GitHubUploader()
 
     async def ensure_model_loaded(self):
         if not model_loader.is_loaded():
@@ -140,6 +147,125 @@ class PredictionStorageService:
             "prediction_timestamp"
         ]
 
+    async def save_single_prediction_to_github(self, features: PenguinInputRequest,
+                                               prediction: PredictionResponse) -> bool:
+        await self.ensure_model_loaded()
+        rows = self.build_rows([features], [prediction])
+        return await self.upload_prediction_to_github(rows)
+
+    async def save_batch_prediction_to_github(self, batch_features: List[PenguinInputRequest],
+                                              batch_predictions: List[PredictionResponse]) -> bool:
+        await self.ensure_model_loaded()
+        rows = self.build_rows(batch_features, batch_predictions)
+        return await self.upload_prediction_to_github(rows)
+
+    async def upload_prediction_to_github(self, rows: List[Dict]) -> bool:
+        self.logger.info("Preparing prediction data for GitHub upload")
+
+        # Get existing data from GitHub repository
+        self.logger.info("Getting existing data from GitHub repository")
+        existing_rows_csv = await self.github_uploader.get_existing_github_file_content(self.constants.github_csv_path)
+        existing_rows_excel = await self.github_uploader.get_existing_github_file_content(
+            self.constants.github_excel_path)
+
+        # Merge and de-duplicate rows
+        self.logger.info("Merging and de-duplicating prediction data")
+        merged_rows_csv = deduplicate_rows(existing_rows_csv, rows)
+        merged_rows_excel = deduplicate_rows(existing_rows_excel, rows)
+
+        self.logger.info("Preparing CSV and Excel contents for upload")
+        csv_content = self.prepare_csv_content(merged_rows_csv)
+        excel_content = self.prepare_excel_content(merged_rows_excel)
+
+        # Upload CSV to GitHub
+        self.logger.info("Uploading CSV prediction file to GitHub")
+        csv_uploaded = await self.github_uploader.upload_to_github(
+            path=self.constants.github_csv_path,
+            content=csv_content,
+            is_binary=False
+        )
+
+        if csv_uploaded:
+            self.logger.info("CSV prediction file uploaded successfully.")
+        else:
+            self.logger.error("Failed to upload CSV prediction file.")
+
+        # Upload Excel to GitHub
+        self.logger.info("Uploading Excel prediction file to GitHub")
+        excel_uploaded = await self.github_uploader.upload_to_github(
+            path=self.constants.github_excel_path,
+            content=excel_content,
+            is_binary=True
+        )
+
+        if excel_uploaded:
+            self.logger.info("Excel prediction file uploaded successfully.")
+        else:
+            self.logger.error("Failed to upload Excel prediction file.")
+
+        return csv_uploaded and excel_uploaded
+
+    def prepare_csv_content(self, rows: List[Dict]) -> str:
+        headers = self.csv_headers()
+
+        # Normalize and filter rows
+        normalized_rows = [
+            {header: str(row.get(header, "")).strip() for header in headers}
+            for row in rows
+        ]
+
+        filtered_rows = [
+            row for row in normalized_rows if any(value for value in row.values())
+        ]
+
+        csv_buffer = io.StringIO()
+        writer = csv.DictWriter(csv_buffer, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(filtered_rows)
+        csv_content = csv_buffer.getvalue()
+        csv_buffer.close()
+
+        return csv_content
+
+    def prepare_excel_content(self, rows: List[Dict]) -> str:
+        headers = self.csv_headers()
+
+        # Normalize and filter rows
+        normalized_rows = [
+            {header: str(row.get(header, "")).strip() for header in headers}
+            for row in rows
+        ]
+
+        filtered_rows = [
+            row for row in normalized_rows if any(value for value in row.values())
+        ]
+
+        # Generate Excel content from filtered rows
+        df = pd.DataFrame(filtered_rows, columns=headers)
+        excel_buffer = io.BytesIO()
+        df.to_excel(excel_buffer, index=False)
+        excel_buffer.seek(0)
+        encoded_content = base64.b64encode(excel_buffer.read()).decode("utf-8")
+
+        return encoded_content
+
+    def compare_data(self, existing_rows: List[Dict], new_rows: List[Dict]) -> bool:
+        # Exclude 'prediction_timestamp' from the headers during comparison
+        excluded_header = 'prediction_timestamp'
+
+        # Normalize both existing and new rows to make comparison easier
+        existing_normalized = [
+            {header: str(row.get(header, "")).strip() for header in self.csv_headers() if header != excluded_header}
+            for row in existing_rows
+        ]
+        new_normalized = [
+            {header: str(row.get(header, "")).strip() for header in self.csv_headers() if header != excluded_header}
+            for row in new_rows
+        ]
+
+        # Check if new data already exists (excluding the 'prediction_timestamp' header)
+        return existing_normalized != new_normalized
+
 
 def normalize_row(row: Dict) -> Dict:
     return {
@@ -148,3 +274,18 @@ def normalize_row(row: Dict) -> Dict:
         if k != "prediction_timestamp"
     }
 
+
+def deduplicate_rows(existing: List[Dict], new: List[Dict]) -> List[Dict]:
+    # Normalize existing rows and build a set of their JSON representations
+    existing_normalized = {
+        json.dumps(normalize_row(row), sort_keys=True)
+        for row in existing
+    }
+
+    # Add only new rows that are not already in the existing normalized set
+    unique_new = [
+        row for row in new
+        if json.dumps(normalize_row(row), sort_keys=True) not in existing_normalized
+    ]
+
+    return existing + unique_new
