@@ -1,2 +1,4 @@
 bill_length_mm,flipper_length_mm,prediction,Adelie,Chinstrap,Gentoo,model_version,prediction_timestamp
 39.1,210.5,Gentoo,0.45,0.0,0.55,v1.0,2025-05-04 20:35:00
+39.1,181.0,Adelie,1.0,0.0,0.0,v1.0,2025-05-04 20:48:45
+46.5,192.0,Chinstrap,0.09,0.91,0.0,v1.0,2025-05-04 20:48:45
