@@ -4045,3 +4045,119 @@ Batch model predicted successfully: [
     }
   }
 ]
+2025-05-04 21:37:45,036 — INFO — GitHubUploader initialized with config:
+2025-05-04 21:37:45,036 — INFO — Username: Slimcent
+2025-05-04 21:37:45,036 — INFO — Repository: Penguis_Classifier
+2025-05-04 21:37:45,036 — INFO — Branch: main
+2025-05-04 21:37:46,802 — INFO — GitHubUploader initialized with config:
+2025-05-04 21:37:46,802 — INFO — Username: Slimcent
+2025-05-04 21:37:46,802 — INFO — Repository: Penguis_Classifier
+2025-05-04 21:37:46,803 — INFO — Branch: main
+2025-05-04 21:37:46,906 — INFO — Model training completed.
+
+2025-05-04 21:37:46,906 — INFO — Model Training Summary - 2025-05-04 21:37:46
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 21:37:46,927 — INFO — Model training completed.
+
+2025-05-04 21:37:46,927 — INFO — Model Training Summary - 2025-05-04 21:37:46
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-04 21:38:39,011 — INFO — Preparing prediction data for GitHub upload
+2025-05-04 21:38:39,012 — INFO — Fetching existing data from GitHub repository
+2025-05-04 21:38:41,681 — ERROR — Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 21:38:41,682 — INFO — Deduplicating and merging prediction data
+2025-05-04 21:38:41,683 — INFO — CSV: 0 new rows added, 2 duplicates skipped.
+2025-05-04 21:38:41,684 — INFO — Excel: 2 new rows added, 0 duplicates skipped.
+2025-05-04 21:38:41,684 — INFO — Preparing CSV and Excel contents for upload
+2025-05-04 21:38:41,794 — INFO — Uploading CSV prediction file to GitHub
+2025-05-04 21:38:41,795 — INFO — Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:38:41,795 — INFO — Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:38:42,878 — INFO — Found existing SHA: 34d59bf4b68a31a28a663cddd5d29b93de7ecf46
+2025-05-04 21:38:42,879 — INFO — Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 21:38:43,891 — INFO — Upload status: 200
+2025-05-04 21:38:43,892 — INFO — Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:38:43,892 — INFO — CSV prediction file uploaded successfully.
+2025-05-04 21:38:43,893 — INFO — Uploading Excel prediction file to GitHub
+2025-05-04 21:38:43,894 — INFO — Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:38:43,894 — INFO — Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:38:44,366 — INFO — Found existing SHA: 5d0941ee87518cbd7f5f515bc057e432f60b0e66
+2025-05-04 21:38:44,367 — INFO — Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 21:38:46,157 — INFO — Upload status: 200
+2025-05-04 21:38:46,158 — INFO — Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:38:46,159 — INFO — Excel prediction file uploaded successfully.
+2025-05-04 21:38:46,159 — INFO — Github prediction result saved successfully.
+2025-05-04 21:38:46,160 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Chinstrap",
+    "probabilities": {
+      "Adelie": 0.09,
+      "Chinstrap": 0.91,
+      "Gentoo": 0.0
+    }
+  }
+]
+2025-05-04 21:39:45,140 — INFO — Preparing prediction data for GitHub upload
+2025-05-04 21:39:45,141 — INFO — Fetching existing data from GitHub repository
+2025-05-04 21:39:48,619 — ERROR — Error retrieving GitHub file content: 'utf-8' codec can't decode byte 0xf8 in position 14: invalid start byte
+2025-05-04 21:39:48,620 — INFO — Deduplicating and merging prediction data
+2025-05-04 21:39:48,620 — INFO — CSV: 2 new rows added, 0 duplicates skipped.
+2025-05-04 21:39:48,621 — INFO — Excel: 2 new rows added, 0 duplicates skipped.
+2025-05-04 21:39:48,621 — INFO — Preparing CSV and Excel contents for upload
+2025-05-04 21:39:48,669 — INFO — Uploading CSV prediction file to GitHub
+2025-05-04 21:39:48,670 — INFO — Starting upload process for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:39:48,670 — INFO — Checking existing SHA for: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:39:49,872 — INFO — Found existing SHA: 34d59bf4b68a31a28a663cddd5d29b93de7ecf46
+2025-05-04 21:39:49,873 — INFO — Uploading file to GitHub: Github_Prediction_Storage/predictions.csv (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.csv)
+2025-05-04 21:39:50,817 — INFO — Upload status: 200
+2025-05-04 21:39:50,818 — INFO — Upload successful: Github_Prediction_Storage/predictions.csv
+2025-05-04 21:39:50,818 — INFO — CSV prediction file uploaded successfully.
+2025-05-04 21:39:50,819 — INFO — Uploading Excel prediction file to GitHub
+2025-05-04 21:39:50,819 — INFO — Starting upload process for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:39:50,819 — INFO — Checking existing SHA for: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:39:51,521 — INFO — Found existing SHA: 55ac3e69859eff7ea80608b56f28ec9b8c3a6df3
+2025-05-04 21:39:51,522 — INFO — Uploading file to GitHub: Github_Prediction_Storage/predictions.xlsx (URL: https://api.github.com/repos/Slimcent/Penguis_Classifier/contents/Github_Prediction_Storage/predictions.xlsx)
+2025-05-04 21:39:53,505 — INFO — Upload status: 200
+2025-05-04 21:39:53,506 — INFO — Upload successful: Github_Prediction_Storage/predictions.xlsx
+2025-05-04 21:39:53,506 — INFO — Excel prediction file uploaded successfully.
+2025-05-04 21:39:53,507 — INFO — Github prediction result saved successfully.
+2025-05-04 21:39:53,508 — INFO — 
+Batch model predicted successfully: [
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.0,
+      "Gentoo": 0.0
+    }
+  },
+  {
+    "prediction": "Adelie",
+    "probabilities": {
+      "Adelie": 0.91,
+      "Chinstrap": 0.09,
+      "Gentoo": 0.0
+    }
+  }
+]

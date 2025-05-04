@@ -162,22 +162,23 @@ class PredictionStorageService:
     async def upload_prediction_to_github(self, rows: List[Dict]) -> bool:
         self.logger.info("Preparing prediction data for GitHub upload")
 
-        # Get existing data from GitHub repository
-        self.logger.info("Getting existing data from GitHub repository")
+        # Fetch existing data
+        self.logger.info("Fetching existing data from GitHub repository")
         existing_rows_csv = await self.github_uploader.get_existing_github_file_content(self.constants.github_csv_path)
         existing_rows_excel = await self.github_uploader.get_existing_github_file_content(
             self.constants.github_excel_path)
 
-        # Merge and de-duplicate rows
-        self.logger.info("Merging and de-duplicating prediction data")
-        merged_rows_csv = deduplicate_rows(existing_rows_csv, rows)
-        merged_rows_excel = deduplicate_rows(existing_rows_excel, rows)
+        # Deduplicate and merge
+        self.logger.info("Deduplicating and merging prediction data")
+        merged_rows_csv = deduplicate_rows(existing_rows_csv, rows, self.logger, "CSV")
+        merged_rows_excel = deduplicate_rows(existing_rows_excel, rows, self.logger, "Excel")
 
+        # Prepare contents
         self.logger.info("Preparing CSV and Excel contents for upload")
         csv_content = self.prepare_csv_content(merged_rows_csv)
         excel_content = self.prepare_excel_content(merged_rows_excel)
 
-        # Upload CSV to GitHub
+        # Upload CSV
         self.logger.info("Uploading CSV prediction file to GitHub")
         csv_uploaded = await self.github_uploader.upload_to_github(
             path=self.constants.github_csv_path,
@@ -190,7 +191,7 @@ class PredictionStorageService:
         else:
             self.logger.error("Failed to upload CSV prediction file.")
 
-        # Upload Excel to GitHub
+        # Upload Excel
         self.logger.info("Uploading Excel prediction file to GitHub")
         excel_uploaded = await self.github_uploader.upload_to_github(
             path=self.constants.github_excel_path,
@@ -275,17 +276,21 @@ def normalize_row(row: Dict) -> Dict:
     }
 
 
-def deduplicate_rows(existing: List[Dict], new: List[Dict]) -> List[Dict]:
-    # Normalize existing rows and build a set of their JSON representations
+def deduplicate_rows(existing: List[Dict], new: List[Dict], logger, label: str) -> List[Dict]:
     existing_normalized = {
         json.dumps(normalize_row(row), sort_keys=True)
         for row in existing
     }
 
-    # Add only new rows that are not already in the existing normalized set
-    unique_new = [
-        row for row in new
-        if json.dumps(normalize_row(row), sort_keys=True) not in existing_normalized
-    ]
+    unique_new = []
+    duplicate_count = 0
 
+    for row in new:
+        normalized = json.dumps(normalize_row(row), sort_keys=True)
+        if normalized not in existing_normalized:
+            unique_new.append(row)
+        else:
+            duplicate_count += 1
+
+    logger.info(f"{label}: {len(unique_new)} new rows added, {duplicate_count} duplicates skipped.")
     return existing + unique_new
