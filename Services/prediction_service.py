@@ -1,7 +1,5 @@
 import json
 import numpy as np
-
-from Services.prediction_storage_service import PredictionStorageService
 from Utility.file_parser import FileParser
 from fastapi import UploadFile, HTTPException
 from Enums.file_type_enum import FileExportType
@@ -10,6 +8,7 @@ from starlette.responses import StreamingResponse
 from Core.global_model_loader import model_loader
 from Services.logger_service import LoggerService
 from Dtos.Response.service_response import ServiceResponse
+from Services.prediction_storage_service import PredictionStorageService
 from Dtos.Request.penguin_input_request import PenguinInputRequest, BatchInputRequest
 from Dtos.Response.prediction_response import PredictionResponse, BatchPredictionResponse
 
@@ -17,7 +16,7 @@ from Dtos.Response.prediction_response import PredictionResponse, BatchPredictio
 class PredictionService:
     def __init__(self):
         self.logger = LoggerService("prediction_service").get_logger()
-        self.local_prediction_saver = PredictionStorageService()
+        self.prediction_saver = PredictionStorageService()
 
     async def predict_single(self, request: PenguinInputRequest) -> ServiceResponse[PredictionResponse]:
         try:
@@ -42,13 +41,22 @@ class PredictionService:
                 probabilities=probabilities
             )
 
-            save_success = await self.local_prediction_saver.save_single_prediction(request, prediction_data)
-            if save_success:
-                self.logger.info("Prediction result saved successfully.")
-            else:
-                self.logger.warning("Prediction result was not saved (possibly duplicate or write failure).")
+            # local_prediction_save_success = await self.prediction_saver.save_single_prediction(request,
+            # prediction_data)
+            # if local_prediction_save_success:
+            #     self.logger.info("Local prediction result saved successfully.")
+            # else:
+            #     self.logger.warning("Local prediction result was not saved (possibly duplicate or write failure).")
 
-            self.logger.info(f"\nSingle model predicted successfully: {json.dumps(prediction_data.model_dump(), indent=2)}")
+            github_prediction_save_success = await self.prediction_saver.save_single_prediction_to_github(request,
+                                                                                prediction_data)
+            if github_prediction_save_success:
+                self.logger.info("Github prediction result saved successfully.")
+            else:
+                self.logger.warning("Github prediction result was not saved (possibly duplicate or write failure).")
+
+            self.logger.info(
+                f"\nSingle model predicted successfully: {json.dumps(prediction_data.model_dump(), indent=2)}")
             return ServiceResponse(success=True, message="Prediction completed successfully", data=prediction_data)
 
         except Exception as ex:
@@ -89,11 +97,19 @@ class PredictionService:
                     probabilities=probabilities
                 ))
 
-            save_success = await self.local_prediction_saver.save_batch_prediction(request.records, results)
-            if save_success:
-                self.logger.info("Prediction result saved successfully.")
+            # local_prediction_save_success = await self.prediction_saver.save_batch_prediction(request.records,
+            # results)
+            # if local_prediction_save_success:
+            #     self.logger.info("PLocal prediction result saved successfully.")
+            # else:
+            #     self.logger.warning("Local prediction result was not saved (possibly duplicate or write failure).")
+
+            github_prediction_save_success = await self.prediction_saver.save_batch_prediction_to_github(
+                request.records, results)
+            if github_prediction_save_success:
+                self.logger.info("Github prediction result saved successfully.")
             else:
-                self.logger.warning("Prediction result was not saved (possibly duplicate or write failure).")
+                self.logger.warning("Github prediction result was not saved (possibly duplicate or write failure).")
 
             predictions_json = json.dumps([prediction.dict() for prediction in results], indent=2)
             self.logger.info(f"\nBatch model predicted successfully: {predictions_json}")
