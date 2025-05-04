@@ -1,5 +1,7 @@
 import json
 import numpy as np
+
+from Services.prediction_storage_service import PredictionStorageService
 from Utility.file_parser import FileParser
 from fastapi import UploadFile, HTTPException
 from Enums.file_type_enum import FileExportType
@@ -15,6 +17,7 @@ from Dtos.Response.prediction_response import PredictionResponse, BatchPredictio
 class PredictionService:
     def __init__(self):
         self.logger = LoggerService("prediction_service").get_logger()
+        self.local_prediction_saver = PredictionStorageService()
 
     async def predict_single(self, request: PenguinInputRequest) -> ServiceResponse[PredictionResponse]:
         try:
@@ -39,8 +42,13 @@ class PredictionService:
                 probabilities=probabilities
             )
 
-            self.logger.info(
-                f"\nSingle model predicted successfully: {json.dumps(prediction_data.model_dump(), indent=2)}")
+            save_success = await self.local_prediction_saver.save_single_prediction(request, prediction_data)
+            if save_success:
+                self.logger.info("Prediction result saved successfully.")
+            else:
+                self.logger.warning("Prediction result was not saved (possibly duplicate or write failure).")
+
+            self.logger.info(f"\nSingle model predicted successfully: {json.dumps(prediction_data.model_dump(), indent=2)}")
             return ServiceResponse(success=True, message="Prediction completed successfully", data=prediction_data)
 
         except Exception as ex:
@@ -80,6 +88,12 @@ class PredictionService:
                     prediction=prediction_label,
                     probabilities=probabilities
                 ))
+
+            save_success = await self.local_prediction_saver.save_batch_prediction(request.records, results)
+            if save_success:
+                self.logger.info("Prediction result saved successfully.")
+            else:
+                self.logger.warning("Prediction result was not saved (possibly duplicate or write failure).")
 
             predictions_json = json.dumps([prediction.dict() for prediction in results], indent=2)
             self.logger.info(f"\nBatch model predicted successfully: {predictions_json}")
