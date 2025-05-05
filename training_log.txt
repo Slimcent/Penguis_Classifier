@@ -4161,3 +4161,52 @@ Batch model predicted successfully: [
     }
   }
 ]
+2025-05-05 00:59:27,594 — INFO — GitHubUploader initialized with config:
+2025-05-05 00:59:27,595 — INFO — Username: Slimcent
+2025-05-05 00:59:27,595 — INFO — Repository: Penguis_Classifier
+2025-05-05 00:59:27,596 — INFO — Branch: main
+2025-05-05 00:59:30,982 — INFO — GitHubUploader initialized with config:
+2025-05-05 00:59:30,983 — INFO — Username: Slimcent
+2025-05-05 00:59:30,984 — INFO — Repository: Penguis_Classifier
+2025-05-05 00:59:30,985 — INFO — Branch: main
+2025-05-05 00:59:31,235 — INFO — Model training completed.
+
+2025-05-05 00:59:31,236 — INFO — Model Training Summary - 2025-05-05 00:59:31
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-05 00:59:31,282 — INFO — Model training completed.
+
+2025-05-05 00:59:31,282 — INFO — Model Training Summary - 2025-05-05 00:59:31
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-05 01:09:57,892 — INFO — 
+Model info retrieved successfully: {
+  "name": "Penguins Prediction",
+  "description": "Predict penguin species based on bill length and flipper length.",
+  "data_info": {
+    "initial_rows": 355,
+    "cleaned_rows": 337,
+    "dropped_rows": 18
+  },
+  "training_info": {
+    "train_accuracy": 0.952,
+    "test_accuracy": 0.976,
+    "label_mapping": {
+      "0": "Adelie",
+      "1": "Chinstrap",
+      "2": "Gentoo"
+    }
+  }
+}
