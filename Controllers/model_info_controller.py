@@ -7,7 +7,7 @@ router = APIRouter()
 model_info_service = ModelInfoService()
 
 
-@router.get("/penguin-info", summary="Penguin Model Info", description="Returns details about the training and model.",
+@router.get("/model-info", summary="Penguin Model Info", description="Returns details about the training and model.",
             tags=["Overview"], response_model=ServiceResponse[ModelInfoResponse])
 async def get_penguin_info():
     return await model_info_service.get_model_info()
