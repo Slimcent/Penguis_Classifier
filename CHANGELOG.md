@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/Slimcent/Penguis_Classifier/compare/v1.0.5...v1.0.6) (2025-05-06)
+
+
+### Bug Fixes
+
+* Update main.yml ([b537fbb](https://github.com/Slimcent/Penguis_Classifier/commit/b537fbb301426fa77928702ebeff6ab53cb5b8fc))
+
 ### [1.0.5](https://github.com/Slimcent/Penguis_Classifier/compare/v1.0.4...v1.0.5) (2025-05-06)
 
 
