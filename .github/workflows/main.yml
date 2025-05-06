@@ -69,7 +69,10 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }} .
+          TAG=${{ needs.bump_version.outputs.new_version }}
+          TAG=${TAG//v/}  # Strip the 'v' if present (optional)
+          echo "Building Docker image with tag: $TAG"
+          docker build -t slimcent/penguin_classifier:$TAG .
 
   docker_push:
     name: Push Docker Image
