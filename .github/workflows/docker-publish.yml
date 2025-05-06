@@ -1,84 +1,169 @@
+#name: Docker Publish
+#
+#on:
+#  push:
+#    tags:
+#      - 'v*.*.*'  # Triggers on version tags like v1.0.0
+#  workflow_dispatch:
+#
+#jobs:
+#  setup:
+#    name: Setup Python
+#    runs-on: ubuntu-latest
+#    outputs:
+#      version: ${{ steps.extract_version.outputs.VERSION }}
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#
+#      - name: Set up Python
+#        uses: actions/setup-python@v4
+#        with:
+#          python-version: '3.10'
+#
+#      - name: Install dependencies
+#        run: |
+#          pip install -r requirements.txt
+#          pip install bump2version
+#
+#      - name: Extract version from tag
+#        id: extract_version
+#        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+#
+#  python_build:
+#    name: Python Build & Validate
+#    needs: setup
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#
+#      - name: Set up Python
+#        uses: actions/setup-python@v4
+#        with:
+#          python-version: '3.10'
+#
+#      - name: Install dependencies
+#        run: |
+#          pip install -r requirements.txt
+#
+#      - name: Build source and wheel distribution
+#        run: |
+#          python setup.py sdist bdist_wheel
+#
+#      - name: Run tests (optional)
+#        run: |
+#          pip install pytest
+#          pytest
+#        continue-on-error: true  # remove this line if tests must pass
+#
+#  docker_build:
+#    name: Build Docker Image
+#    needs: python_build
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#
+#      - name: Set up Docker Buildx
+#        uses: docker/setup-buildx-action@v3
+#
+#      - name: Build Docker image
+#        run: |
+#          docker build -t ${{ secrets.DOCKER_USERNAME }}/penguins:${{ needs.setup.outputs.version }} .
+#
+#  docker_push:
+#    name: Push Docker Image
+#    needs: docker_build
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+#
+#      - name: Docker login
+#        uses: docker/login-action@v3
+#        with:
+#          username: ${{ secrets.DOCKER_USERNAME }}
+#          password: ${{ secrets.DOCKER_PASSWORD }}
+#
+#      - name: Push Docker image
+#        run: |
+#          docker tag ${{ secrets.DOCKER_USERNAME }}/penguins:${{ github.ref_name }} ${{ secrets.DOCKER_USERNAME }}/penguins:latest
+#          docker push ${{ secrets.DOCKER_USERNAME }}/penguins:${{ github.ref_name }}
+#          docker push ${{ secrets.DOCKER_USERNAME }}/penguins:latest
+
+
 name: Docker Publish
 
 on:
-  push:
-    tags:
-      - 'v*.*.*'  # Triggers on version tags like v1.0.0
   workflow_dispatch:
+    inputs:
+      version_type:
+        description: 'Version bump type (patch, minor, major)'
+        required: true
+        default: 'patch'
 
 jobs:
-  setup:
-    name: Setup Python
+  get_version:
+    name: Determine Next Version
     runs-on: ubuntu-latest
     outputs:
-      version: ${{ steps.extract_version.outputs.VERSION }}
+      new_version: ${{ steps.bump.outputs.new_version }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          fetch-depth: 0  # Needed to fetch tags
 
-      - name: Install dependencies
+      - name: Get latest version tag
+        id: get_tag
         run: |
-          pip install -r requirements.txt
-          pip install bump2version
+          git fetch --tags
+          tag=$(git tag --sort=-v:refname | grep '^v' | head -n 1)
+          echo "latest_tag=${tag:-v0.0.0}" >> $GITHUB_OUTPUT
 
-      - name: Extract version from tag
-        id: extract_version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
-
-  python_build:
-    name: Python Build & Validate
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
+      - name: Bump version
+        id: bump
         run: |
-          pip install -r requirements.txt
+          echo "Previous tag: ${{ steps.get_tag.outputs.latest_tag }}"
+          version="${{ steps.get_tag.outputs.latest_tag }}"
+          IFS='.' read -r major minor patch <<< "${version#v}"
+          case "${{ github.event.inputs.version_type }}" in
+            major) major=$((major + 1)); minor=0; patch=0 ;;
+            minor) minor=$((minor + 1)); patch=0 ;;
+            patch) patch=$((patch + 1)) ;;
+          esac
+          new_version="v$major.$minor.$patch"
+          echo "New version: $new_version"
+          echo "new_version=$new_version" >> $GITHUB_OUTPUT
 
-      - name: Build source and wheel distribution
+      - name: Create Git tag
         run: |
-          python setup.py sdist bdist_wheel
-
-      - name: Run tests (optional)
-        run: |
-          pip install pytest
-          pytest
-        continue-on-error: true  # remove this line if tests must pass
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag ${{ steps.bump.outputs.new_version }}
+          git push origin ${{ steps.bump.outputs.new_version }}
 
   docker_build:
     name: Build Docker Image
-    needs: python_build
+    needs: get_version
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/penguins:${{ needs.setup.outputs.version }} .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/penguins:${{ needs.get_version.outputs.new_version }} .
 
   docker_push:
     name: Push Docker Image
     needs: docker_build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Docker login
         uses: docker/login-action@v3
@@ -88,6 +173,6 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag ${{ secrets.DOCKER_USERNAME }}/penguins:${{ github.ref_name }} ${{ secrets.DOCKER_USERNAME }}/penguins:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/penguins:${{ github.ref_name }}
+          docker tag ${{ secrets.DOCKER_USERNAME }}/penguins:${{ needs.get_version.outputs.new_version }} ${{ secrets.DOCKER_USERNAME }}/penguins:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/penguins:${{ needs.get_version.outputs.new_version }}
           docker push ${{ secrets.DOCKER_USERNAME }}/penguins:latest
