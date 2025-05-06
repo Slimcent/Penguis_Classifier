@@ -32,8 +32,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          version=$(standard-version --dry-run | grep "tagging release" | awk '{print $NF}')
           standard-version
+          version=$(git describe --tags `git rev-list --tags --max-count=1`)
           echo "version=$version" >> $GITHUB_OUTPUT
 
       - name: Push tag and changelog
@@ -69,10 +69,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          TAG=${{ needs.bump_version.outputs.new_version }}
-          TAG=${TAG//v/}  # Strip the 'v' if present (optional)
-          echo "Building Docker image with tag: $TAG"
-          docker build -t slimcent/penguin_classifier:$TAG .
+          docker build -t slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }} .
+          docker tag slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }} slimcent/penguin_classifier:latest
 
   docker_push:
     name: Push Docker Image
@@ -87,8 +85,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Push Docker image
+      - name: Push Docker images
         run: |
           docker push slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }}
-          docker tag slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }} slimcent/penguin_classifier:latest
           docker push slimcent/penguin_classifier:latest
