@@ -69,7 +69,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/penguin_classifier:${{ needs.bump_version.outputs.new_version }} .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/penguin_classifier:${{ needs.bump_version.outputs.new_version }}
 
   docker_push:
     name: Push Docker Image
