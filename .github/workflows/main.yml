@@ -13,7 +13,7 @@ jobs:
     name: Bump Version Automatically
     runs-on: ubuntu-latest
     outputs:
-      new_version: ${{ steps.bump.outputs.version }}  # Correct output assignment
+      new_version: ${{ steps.bump.outputs.version }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -33,8 +33,9 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           version=$(standard-version --dry-run | grep "tagging release" | awk '{print $NF}')
+          echo "New version: $version"
+          echo "version=$version" >> $GITHUB_OUTPUT
           standard-version
-          echo "version=$version" >> $GITHUB_ENV   # Use $GITHUB_ENV to pass the version as environment variable
 
       - name: Push tag and changelog
         run: |
@@ -59,7 +60,7 @@ jobs:
 
   docker_build:
     name: Build Docker Image
-    needs: bump_version  # Ensure it depends on bump_version job
+    needs: bump_version
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -69,13 +70,14 @@ jobs:
 
       - name: Debug Version
         run: |
-          echo "Version tag: ${{ needs.bump_version.outputs.new_version }}"  # Access the output from bump_version job
+            echo "Version tag: ${{ needs.bump_version.outputs.new_version }}"
 
       - name: Build Docker image
         run: |
-          echo "Building Docker image with version: ${{ needs.bump_version.outputs.new_version }}"
-          docker build -t slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }} .
-          docker tag slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }} slimcent/penguin_classifier:latest
+          TAG=${{ needs.bump_version.outputs.new_version }}
+          echo "Building Docker image with tag: $TAG"
+          docker build -t slimcent/penguin_classifier:$TAG .
+          docker tag slimcent/penguin_classifier:$TAG slimcent/penguin_classifier:latest
 
   docker_push:
     name: Push Docker Image
@@ -92,6 +94,6 @@ jobs:
 
       - name: Push Docker image
         run: |
-          echo "Pushing Docker image to Docker Hub"
-          docker push slimcent/penguin_classifier:${{ needs.bump_version.outputs.new_version }}
+          TAG=${{ needs.bump_version.outputs.new_version }}
+          docker push slimcent/penguin_classifier:$TAG
           docker push slimcent/penguin_classifier:latest
