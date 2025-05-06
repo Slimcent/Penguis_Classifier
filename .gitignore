@@ -26,3 +26,5 @@ htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+
+clarity.txt
