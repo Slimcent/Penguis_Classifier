@@ -96,5 +96,9 @@ jobs:
         run: |
           TAG=${{ needs.bump_version.outputs.new_version }}
           echo "Pushing Docker image with tag: $TAG"
+          
+          # Tag the local image properly
+          docker tag penguis_classifier-app slimcent/penguin_classifier:$TAG
+          docker tag penguis_classifier-app slimcent/penguin_classifier:latest
           docker push slimcent/penguin_classifier:$TAG
-          docker push penguis_classifier-app:latest
+          docker push slimcent/penguin_classifier:latest
