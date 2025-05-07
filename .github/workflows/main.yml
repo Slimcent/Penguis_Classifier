@@ -97,4 +97,4 @@ jobs:
           TAG=${{ needs.bump_version.outputs.new_version }}
           echo "Pushing Docker image with tag: $TAG"
           docker push slimcent/penguin_classifier:$TAG
-          docker push slimcent/penguis_classifier-app:latest
+          docker push penguis_classifier-app:latest
