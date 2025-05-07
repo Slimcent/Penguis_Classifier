@@ -81,7 +81,7 @@ jobs:
 
   docker_push:
     name: Push Docker Image
-    needs: docker_build
+    needs: bump_version
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -95,5 +95,6 @@ jobs:
       - name: Push Docker image
         run: |
           TAG=${{ needs.bump_version.outputs.new_version }}
+          echo "Pushing Docker image with tag: $TAG"
           docker push slimcent/penguin_classifier:$TAG
           docker push slimcent/penguin_classifier:latest
