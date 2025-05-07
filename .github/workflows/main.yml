@@ -79,6 +79,7 @@ jobs:
 
   docker_push:
     name: Push Docker Image
+    needs:
       - docker_build
       - bump_version
     runs-on: ubuntu-latest
