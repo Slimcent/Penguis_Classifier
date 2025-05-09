@@ -4434,3 +4434,411 @@ Model info retrieved successfully: {
         Test Accuracy    : 0.976
         Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
         -------------------------------------------------
+2025-05-06 21:14:29,269 — INFO — GitHubUploader initialized with config:
+2025-05-06 21:14:29,270 — INFO — Username: Slimcent
+2025-05-06 21:14:29,270 — INFO — Repository: Penguis_Classifier
+2025-05-06 21:14:29,271 — INFO — Branch: main
+2025-05-06 21:14:29,334 — INFO — Model training completed.
+
+2025-05-06 21:14:29,335 — INFO — Model Training Summary - 2025-05-06 21:14:29
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-06 21:14:29,356 — INFO — Model training completed.
+
+2025-05-06 21:14:29,357 — INFO — Model Training Summary - 2025-05-06 21:14:29
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:05:59,830 — INFO — GitHubUploader initialized with config:
+2025-05-09 09:05:59,832 — INFO — Username: Slimcent
+2025-05-09 09:05:59,834 — INFO — Repository: Penguis_Classifier
+2025-05-09 09:05:59,836 — INFO — Branch: main
+2025-05-09 09:06:00,053 — INFO — Model training completed.
+
+2025-05-09 09:06:00,054 — INFO — Model Training Summary - 2025-05-09 09:06:00
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:06:00,093 — INFO — Model training completed.
+
+2025-05-09 09:06:00,095 — INFO — Model Training Summary - 2025-05-09 09:06:00
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:08:13,272 — INFO — GitHubUploader initialized with config:
+2025-05-09 09:08:13,274 — INFO — Username: Slimcent
+2025-05-09 09:08:13,274 — INFO — Repository: Penguis_Classifier
+2025-05-09 09:08:13,275 — INFO — Branch: main
+2025-05-09 09:08:13,342 — INFO — Model training completed.
+
+2025-05-09 09:08:13,343 — INFO — Model Training Summary - 2025-05-09 09:08:13
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:08:13,378 — INFO — Model training completed.
+
+2025-05-09 09:08:13,379 — INFO — Model Training Summary - 2025-05-09 09:08:13
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:17:15,089 — INFO — GitHubUploader initialized with config:
+2025-05-09 09:17:15,091 — INFO — Username: Slimcent
+2025-05-09 09:17:15,092 — INFO — Repository: Penguis_Classifier
+2025-05-09 09:17:15,093 — INFO — Branch: main
+2025-05-09 09:17:15,196 — INFO — Model training completed.
+
+2025-05-09 09:17:15,198 — INFO — Model Training Summary - 2025-05-09 09:17:15
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:17:15,239 — INFO — Model training completed.
+
+2025-05-09 09:17:15,241 — INFO — Model Training Summary - 2025-05-09 09:17:15
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:29:40,777 — INFO — GitHubUploader initialized with config:
+2025-05-09 09:29:40,779 — INFO — Username: Slimcent
+2025-05-09 09:29:40,780 — INFO — Repository: Penguis_Classifier
+2025-05-09 09:29:40,782 — INFO — Branch: main
+2025-05-09 09:29:40,897 — INFO — Model training completed.
+
+2025-05-09 09:29:40,899 — INFO — Model Training Summary - 2025-05-09 09:29:40
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:29:40,944 — INFO — Model training completed.
+
+2025-05-09 09:29:40,946 — INFO — Model Training Summary - 2025-05-09 09:29:40
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 09:40:50,498 — INFO — GitHubUploader initialized with config:
+2025-05-09 09:40:50,499 — INFO — Username: Slimcent
+2025-05-09 09:40:50,500 — INFO — Repository: Penguis_Classifier
+2025-05-09 09:40:50,502 — INFO — Branch: main
+2025-05-09 09:50:18,002 — INFO — GitHubUploader initialized with config:
+2025-05-09 09:50:18,004 — INFO — Username: Slimcent
+2025-05-09 09:50:18,006 — INFO — Repository: Penguis_Classifier
+2025-05-09 09:50:18,007 — INFO — Branch: main
+2025-05-09 10:04:33,688 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:04:33,691 — INFO — Username: Slimcent
+2025-05-09 10:04:33,692 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:04:33,693 — INFO — Branch: main
+2025-05-09 10:07:43,280 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:07:43,282 — INFO — Username: Slimcent
+2025-05-09 10:07:43,283 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:07:43,286 — INFO — Branch: main
+2025-05-09 10:10:49,913 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:10:49,914 — INFO — Username: Slimcent
+2025-05-09 10:10:49,916 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:10:49,917 — INFO — Branch: main
+2025-05-09 10:21:53,492 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:21:53,494 — INFO — Username: Slimcent
+2025-05-09 10:21:53,495 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:21:53,496 — INFO — Branch: main
+2025-05-09 10:28:03,607 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:28:03,609 — INFO — Username: Slimcent
+2025-05-09 10:28:03,610 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:28:03,611 — INFO — Branch: main
+2025-05-09 10:30:28,614 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:30:28,615 — INFO — Username: Slimcent
+2025-05-09 10:30:28,616 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:30:28,617 — INFO — Branch: main
+2025-05-09 10:59:13,886 — INFO — GitHubUploader initialized with config:
+2025-05-09 10:59:13,889 — INFO — Username: Slimcent
+2025-05-09 10:59:13,890 — INFO — Repository: Penguis_Classifier
+2025-05-09 10:59:13,891 — INFO — Branch: main
+2025-05-09 11:02:26,266 — INFO — GitHubUploader initialized with config:
+2025-05-09 11:02:26,268 — INFO — Username: Slimcent
+2025-05-09 11:02:26,269 — INFO — Repository: Penguis_Classifier
+2025-05-09 11:02:26,271 — INFO — Branch: main
+2025-05-09 11:08:00,865 — INFO — GitHubUploader initialized with config:
+2025-05-09 11:08:00,873 — INFO — Username: Slimcent
+2025-05-09 11:08:00,876 — INFO — Repository: Penguis_Classifier
+2025-05-09 11:08:00,878 — INFO — Branch: main
+2025-05-09 12:03:04,029 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:03:04,031 — INFO — Username: Slimcent
+2025-05-09 12:03:04,033 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:03:04,034 — INFO — Branch: main
+2025-05-09 12:12:55,091 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:12:55,093 — INFO — Username: Slimcent
+2025-05-09 12:12:55,094 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:12:55,094 — INFO — Branch: main
+2025-05-09 12:17:50,040 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:17:50,042 — INFO — Username: Slimcent
+2025-05-09 12:17:50,044 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:17:50,045 — INFO — Branch: main
+2025-05-09 12:24:59,044 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:24:59,045 — INFO — Username: Slimcent
+2025-05-09 12:24:59,046 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:24:59,047 — INFO — Branch: main
+2025-05-09 12:27:26,911 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:27:26,913 — INFO — Username: Slimcent
+2025-05-09 12:27:26,913 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:27:26,914 — INFO — Branch: main
+2025-05-09 12:31:44,637 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:31:44,639 — INFO — Username: Slimcent
+2025-05-09 12:31:44,640 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:31:44,641 — INFO — Branch: main
+2025-05-09 12:36:22,493 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:36:22,495 — INFO — Username: Slimcent
+2025-05-09 12:36:22,496 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:36:22,502 — INFO — Branch: main
+2025-05-09 12:41:10,242 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:41:10,244 — INFO — Username: Slimcent
+2025-05-09 12:41:10,245 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:41:10,246 — INFO — Branch: main
+2025-05-09 12:43:45,479 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:43:45,480 — INFO — Username: Slimcent
+2025-05-09 12:43:45,481 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:43:45,482 — INFO — Branch: main
+2025-05-09 12:54:38,455 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:54:38,456 — INFO — Username: Slimcent
+2025-05-09 12:54:38,457 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:54:38,458 — INFO — Branch: main
+2025-05-09 12:57:06,064 — INFO — GitHubUploader initialized with config:
+2025-05-09 12:57:06,065 — INFO — Username: Slimcent
+2025-05-09 12:57:06,066 — INFO — Repository: Penguis_Classifier
+2025-05-09 12:57:06,067 — INFO — Branch: main
+2025-05-09 13:01:44,307 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:01:44,308 — INFO — Username: Slimcent
+2025-05-09 13:01:44,309 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:01:44,310 — INFO — Branch: main
+2025-05-09 13:08:13,111 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:08:13,112 — INFO — Username: Slimcent
+2025-05-09 13:08:13,114 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:08:13,114 — INFO — Branch: main
+2025-05-09 13:10:11,009 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:10:11,010 — INFO — Username: Slimcent
+2025-05-09 13:10:11,010 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:10:11,011 — INFO — Branch: main
+2025-05-09 13:20:17,419 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:20:17,420 — INFO — Username: Slimcent
+2025-05-09 13:20:17,422 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:20:17,423 — INFO — Branch: main
+2025-05-09 13:31:03,120 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:31:03,124 — INFO — Username: Slimcent
+2025-05-09 13:31:03,126 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:31:03,127 — INFO — Branch: main
+2025-05-09 13:33:38,921 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:33:38,923 — INFO — Username: Slimcent
+2025-05-09 13:33:38,924 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:33:38,924 — INFO — Branch: main
+2025-05-09 13:37:50,718 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:37:50,721 — INFO — Username: Slimcent
+2025-05-09 13:37:50,723 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:37:50,725 — INFO — Branch: main
+2025-05-09 14:40:50,350 � INFO � GitHubUploader initialized with config:
+2025-05-09 14:40:50,351 � INFO � Username: Slimcent
+2025-05-09 14:40:50,352 � INFO � Repository: Penguis_Classifier
+2025-05-09 14:40:50,352 � INFO � Branch: main
+2025-05-09 14:40:54,047 � INFO � GitHubUploader initialized with config:
+2025-05-09 14:40:54,048 � INFO � Username: Slimcent
+2025-05-09 14:40:54,049 � INFO � Repository: Penguis_Classifier
+2025-05-09 14:40:54,049 � INFO � Branch: main
+2025-05-09 14:40:54,385 � INFO � Model training completed.
+
+2025-05-09 14:40:54,386 � INFO � Model Training Summary - 2025-05-09 14:40:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 14:40:54,436 � INFO � Model training completed.
+
+2025-05-09 14:40:54,437 � INFO � Model Training Summary - 2025-05-09 14:40:54
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 14:42:49,570 � ERROR � Error retrieving model info: REDIS_URL not set in environment.
+2025-05-09 13:43:28,574 — INFO — GitHubUploader initialized with config:
+2025-05-09 13:43:28,575 — INFO — Username: Slimcent
+2025-05-09 13:43:28,576 — INFO — Repository: Penguis_Classifier
+2025-05-09 13:43:28,577 — INFO — Branch: main
+2025-05-09 14:47:31,279 � ERROR � Error retrieving model info: REDIS_URL not set in environment.
+2025-05-09 14:54:12,036 � INFO � GitHubUploader initialized with config:
+2025-05-09 14:54:12,037 � INFO � Username: Slimcent
+2025-05-09 14:54:12,037 � INFO � Repository: Penguis_Classifier
+2025-05-09 14:54:12,038 � INFO � Branch: main
+2025-05-09 14:54:16,123 � INFO � GitHubUploader initialized with config:
+2025-05-09 14:54:16,124 � INFO � Username: Slimcent
+2025-05-09 14:54:16,125 � INFO � Repository: Penguis_Classifier
+2025-05-09 14:54:16,125 � INFO � Branch: main
+2025-05-09 14:54:16,497 � INFO � Model training completed.
+
+2025-05-09 14:54:16,498 � INFO � Model Training Summary - 2025-05-09 14:54:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 14:54:16,552 � INFO � Model training completed.
+
+2025-05-09 14:54:16,553 � INFO � Model Training Summary - 2025-05-09 14:54:16
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 14:54:32,993 � ERROR � Failed to read from cache (model:info): AbstractConnection.__init__() got an unexpected keyword argument 'ssl'
+2025-05-09 14:54:32,994 � ERROR � Error retrieving model info: AbstractConnection.__init__() got an unexpected keyword argument 'ssl'
+2025-05-09 14:57:58,348 � INFO � GitHubUploader initialized with config:
+2025-05-09 14:57:58,348 � INFO � Username: Slimcent
+2025-05-09 14:57:58,349 � INFO � Repository: Penguis_Classifier
+2025-05-09 14:57:58,349 � INFO � Branch: main
+2025-05-09 14:58:02,103 � INFO � GitHubUploader initialized with config:
+2025-05-09 14:58:02,104 � INFO � Username: Slimcent
+2025-05-09 14:58:02,105 � INFO � Repository: Penguis_Classifier
+2025-05-09 14:58:02,105 � INFO � Branch: main
+2025-05-09 14:58:02,387 � INFO � Model training completed.
+
+2025-05-09 14:58:02,387 � INFO � Model Training Summary - 2025-05-09 14:58:02
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 14:58:02,430 � INFO � Model training completed.
+
+2025-05-09 14:58:02,431 � INFO � Model Training Summary - 2025-05-09 14:58:02
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 14:59:04,232 � INFO � Cache miss for key: model:info
+2025-05-09 14:59:04,235 � INFO � Caching model info: {
+  "name": "Penguins Prediction",
+  "description": "Predict penguin species based on bill length and flipper length.",
+  "data_info": {
+    "initial_rows": 355,
+    "cleaned_rows": 337,
+    "dropped_rows": 18
+  },
+  "training_info": {
+    "train_accuracy": 0.952,
+    "test_accuracy": 0.976,
+    "label_mapping": {
+      "0": "Adelie",
+      "1": "Chinstrap",
+      "2": "Gentoo"
+    }
+  }
+} {'name': 'Penguins Prediction', 'description': 'Predict penguin species based on bill length and flipper length.', 'data_info': {'initial_rows': 355, 'cleaned_rows': 337, 'dropped_rows': 18}, 'training_info': {'train_accuracy': 0.952, 'test_accuracy': 0.976, 'label_mapping': {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}}}
+2025-05-09 14:59:04,369 � INFO � Cache write successful for key: model:info
+2025-05-09 14:59:04,369 � INFO � Model info loaded and cached.
+2025-05-09 14:00:29,022 — INFO — GitHubUploader initialized with config:
+2025-05-09 14:00:29,024 — INFO — Username: Slimcent
+2025-05-09 14:00:29,026 — INFO — Repository: Penguis_Classifier
+2025-05-09 14:00:29,027 — INFO — Branch: main
+2025-05-09 15:01:30,964 � INFO � Model info retrieved from cache.
+2025-05-09 15:01:35,672 � INFO � Model info retrieved from cache.
+2025-05-09 15:01:40,644 � INFO � Model info retrieved from cache.
+2025-05-09 15:02:33,207 � INFO � GitHubUploader initialized with config:
+2025-05-09 15:02:33,207 � INFO � Username: Slimcent
+2025-05-09 15:02:33,207 � INFO � Repository: Penguis_Classifier
+2025-05-09 15:02:33,207 � INFO � Branch: main
+2025-05-09 15:02:44,183 � INFO � GitHubUploader initialized with config:
+2025-05-09 15:02:44,184 � INFO � Username: Slimcent
+2025-05-09 15:02:44,185 � INFO � Repository: Penguis_Classifier
+2025-05-09 15:02:44,185 � INFO � Branch: main
+2025-05-09 15:02:44,604 � INFO � Model training completed.
+
+2025-05-09 15:02:44,605 � INFO � Model Training Summary - 2025-05-09 15:02:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 15:02:44,696 � INFO � Model training completed.
+
+2025-05-09 15:02:44,696 � INFO � Model Training Summary - 2025-05-09 15:02:44
+        -------------------------------------------------
+        Rows loaded      : 355
+        Rows after clean : 337
+        Rows dropped     : 18
+        Train Accuracy   : 0.952
+        Test Accuracy    : 0.976
+        Label Mapping    : {0: 'Adelie', 1: 'Chinstrap', 2: 'Gentoo'}
+        -------------------------------------------------
+2025-05-09 15:05:26,643 � INFO � Model info retrieved from cache.
+2025-05-09 15:09:20,782 � INFO � Model info retrieved from cache.
+2025-05-09 15:21:47,979 — INFO — GitHubUploader initialized with config:
+2025-05-09 15:21:47,982 — INFO — Username: Slimcent
+2025-05-09 15:21:47,983 — INFO — Repository: Penguis_Classifier
+2025-05-09 15:21:47,985 — INFO — Branch: main
