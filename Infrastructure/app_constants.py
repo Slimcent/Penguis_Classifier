@@ -4,3 +4,5 @@ class AppConstants:
     base_folder = "PredictionStorage"
     github_csv_path = "Github_Prediction_Storage/predictions.csv"
     github_excel_path = "Github_Prediction_Storage/predictions.xlsx"
+    cache_expiry = 14400
+    model_info_key = "model:info"
